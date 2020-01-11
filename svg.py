@@ -1,6 +1,7 @@
 import numpy as np
 from itertools import chain
 from typing import Union, Set, Dict, List, Any, Tuple, Optional
+import html
 # based on https://github.com/cubao/naive-svg/blob/master/naive_svg.py
 
 
@@ -57,10 +58,12 @@ class SVG(Object):
         self.polylines: List[Polyline] = []
         self.circles: List[Circle] = []
         self.texts: List[Text] = []
+        self.children: List[Union[Polygon, Polyline, Circle, Text]] = []
 
         self.grid_step: float = -1
         self.grid_color: Color = [155, 155, 155]
         self.background: Color = None
+
 
     class Polyline(Object):
 
@@ -125,7 +128,8 @@ class SVG(Object):
             self.fontsize: float = fontsize
 
         def __repr__(self):
-            return f"<text x='{self.x}' y='{self.y}' fill='{rgb(self.fill)}' font-size='{self.fontsize}' font-family='monospace'>{self.text}</text>"
+            text = html.escape(self.text)
+            return f"<text alignment-baseline='hanging' x='{self.x}' y='{self.y}' fill='{rgb(self.fill)}' font-size='{self.fontsize}' font-family='monospace'>{text}</text>"
 
     def __repr__(self):
         lines = []
@@ -148,6 +152,7 @@ class SVG(Object):
         lines.extend(['\t{}'.format(p) for p in self.polylines])
         lines.extend(['\t{}'.format(c) for c in self.circles])
         lines.extend(['\t{}'.format(t) for t in self.texts])
+        lines.extend(['\t{}'.format(t) for t in self.children])
         lines.append('</svg>')
         return '\n'.join(lines)
 
