@@ -1,106 +1,141 @@
 import numpy as np
 from itertools import chain
+from typing import Union, Set, Dict, List, Any, Tuple, Optional
 # based on https://github.com/cubao/naive-svg/blob/master/naive_svg.py
+
+
+Pixel = Tuple[float, float]
+Pixels = List[Pixel]
+Color = Union[Tuple[int, int, int], Tuple[int, int, int, float], None]
 
 
 class Object(object):
 
-    def __init__(self, points=None, stroke=None, stroke_width=1, fill=None):
+    def __init__(
+            self,
+            points: Optional[Pixels] = None,
+            stroke: Color = None,
+            stroke_width: float = 1,
+            fill: Color = None,
+    ):
         if points is None:
             points = []
-        self.points = np.array(points)
-        self.stroke = stroke or [0, 0, 0]
-        self.stroke_width = stroke_width
-        self.fill = fill or list(self.stroke)
+        self.points: Pixels = np.array(points)
+        self.stroke: Color = stroke or [0, 0, 0]
+        self.stroke_width: float = stroke_width
+        self.fill: Color = fill or list(self.stroke)
 
     @property
-    def x(self):
+    def x(self) -> float:
         return self.points[0][0]
 
     @property
-    def y(self):
+    def y(self) -> float:
         return self.points[0][1]
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         raise NotImplementedError
 
 
-def rgb(color):
+def rgb(color: Color) -> str:
     if color is None:
         return 'none'
-    try:
+    if len(color) == 3:
         r, g, b = color
         return 'rgb({},{},{})'.format(r, g, b)
-    except Exception:
+    else:
         r, g, b, a = color
         return 'rgba({},{},{},{})'.format(r, g, b, a)
 
 
 class SVG(Object):
 
-    def __init__(self, width, height):
-        self.width = width
-        self.height = height
-        self.polygons = []
-        self.polylines = []
-        self.circles = []
-        self.texts = []
+    def __init__(self, width: float, height: float):
+        self.width: float = width
+        self.height: float = height
+        self.polygons: List[Polygon] = []
+        self.polylines: List[Polyline] = []
+        self.circles: List[Circle] = []
+        self.texts: List[Text] = []
 
-        self.grid_step = -1
-        self.grid_color = [155, 155, 155]
-        self.background = None
+        self.grid_step: float = -1
+        self.grid_color: Color = [155, 155, 155]
+        self.background: Color = None
 
     class Polyline(Object):
 
-        def __init__(self, points, stroke=None, stroke_width=1, fill=None):
+        def __init__(
+                self,
+                points: Pixels,
+                stroke: Color = None,
+                stroke_width: float = 1,
+                fill: Color = None,
+        ):
             super().__init__(points, stroke, stroke_width, fill)
-            self.fill = None
-            self.tag = 'polyline'
+            self.fill: Color = None
+            self.tag: str = 'polyline'
 
-        def __repr__(self):
-            points = ' '.join(
-                ['{},{}'.format(pt[0], pt[1]) for pt in self.points])
-            return "<{} style='stroke:{};stroke-width:{};fill:{}' points='{}' />" \
-                .format(self.tag, rgb(self.stroke), self.stroke_width, rgb(self.fill), points)
+        def __repr__(self) -> str:
+            points = ' '.join([f'{pt[0]},{pt[1]}' for pt in self.points])
+            return f"<{self.tag} style='stroke:{rgb(self.stroke)};stroke-width:{self.stroke_width};fill:{rgb(self.fill)}' points='{points}' />"
 
     class Polygon(Polyline):
 
-        def __init__(self, points, fill=None, stroke=None, stroke_width=1):
+        def __init__(
+                self,
+                points: Pixels,
+                fill: Color = None,
+                stroke: Color = None,
+                stroke_width: float = 1,
+        ):
             super().__init__(points, stroke, stroke_width, fill)
-            self.fill = fill
-            self.stroke = stroke
-            self.tag = 'polygon'
+            self.fill: Color = fill
+            self.stroke: Color = stroke
+            self.tag: str = 'polygon'
 
     class Circle(Object):
 
-        def __init__(self, x, y, r=1, stroke=None, fill=None, stroke_width=1):
+        def __init__(
+                self,
+                x: float,
+                y: float,
+                r: float = 1,
+                stroke: Color = None,
+                fill: Color = None,
+                stroke_width: float = 1,
+        ):
             super().__init__(np.array([[x, y]]), stroke, stroke_width, fill)
-            self.r = r
+            self.r: float = r
 
         def __repr__(self):
-            return "<circle r='{}' cx='{}' cy='{}' style='stroke:{};stroke-width:{};fill:{}' />" \
-                .format(self.r, self.x, self.y, rgb(self.stroke), self.stroke_width, rgb(self.fill))
+            return f"<circle r='{self.r}' cx='{self.x}' cy='{self.y}' style='stroke:{rgb(self.stroke)};stroke-width:{self.stroke_width};fill:{rgb(self.fill)}' />"
 
     class Text(Object):
 
-        def __init__(self, x, y, text, fill=None, fontsize=10):
+        def __init__(
+                self,
+                x: float,
+                y: float,
+                text: str,
+                fill: Color = None,
+                fontsize: float = 10,
+        ):
             super().__init__(np.array([[x, y]]), fill, 1, fill)
-            self.text = text
-            self.fontsize = fontsize
+            self.text: str = text
+            self.fontsize: float = fontsize
 
         def __repr__(self):
-            return "<text x='{}' y='{}' fill='{}' font-size='{}' font-family='monospace'>{}</text>" \
-                .format(self.x, self.y, rgb(self.fill), self.fontsize, self.text)
+            return f"<text x='{self.x}' y='{self.y}' fill='{rgb(self.fill)}' font-size='{self.fontsize}' font-family='monospace'>{self.text}</text>"
 
     def __repr__(self):
         lines = []
         lines.append(
-            "<svg width='{}' height='{}' xmlns='http://www.w3.org/2000/svg'>"
-            .format(self.width, self.height))
+            f"<svg width='{self.width}' height='{self.height}' xmlns='http://www.w3.org/2000/svg'>"
+        )
         if self.background:
             lines.append(
-                "\t<rect width='100%' height='100%' fill='{}' />".format(
-                    rgb(self.background)))
+                f"\t<rect width='100%' height='100%' fill='{rgb(self.background)}' />"
+            )
         if self.grid_step > 0:
             grid_color = self.grid_color or [155, 155, 155]
             for i in np.arange(0, self.height, self.grid_step):
