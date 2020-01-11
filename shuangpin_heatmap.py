@@ -1,12 +1,24 @@
 from pypinyin import pinyin, lazy_pinyin, Style
 from pyhanlp import *
+from typing import Union, Set, Dict, List, Any, Tuple, Optional
 from svg import SVG
 import os
 import sys
 
-
 PWD = os.path.abspath(os.path.dirname(__file__))
 DATA_DIR = f'{PWD}/data'
+KEYBOARD_LAYOUT_SVG_LINES: Optional[List[str]] = None
+
+
+def write_svg_heatmap(svg: SVG, path: str) -> str:
+    global KEYBOARD_LAYOUT_SVG_LINES
+    if not KEYBOARD_LAYOUT_SVG_LINES:
+        with open(f'{DATA_DIR}/keyboard-layout.svg') as f:
+            KEYBOARD_LAYOUT_SVG_LINES = f.readlines()
+
+    text = '\n'.join(KEYBOARD_LAYOUT_SVG_LINES)
+    with open(path, 'w') as f:
+        f.write(text)
 
 
 if __name__ == '__main__':
@@ -32,3 +44,6 @@ if __name__ == '__main__':
     svg.polygons.append(
         SVG.Polygon([[100, 100], [200, 200], [svg.width, svg.height]], red))
     print(svg)
+
+    path = 'debug.svg'
+    write_svg_heatmap(svg, path)
