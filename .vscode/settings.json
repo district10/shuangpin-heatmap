@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "${env:HOME}/anaconda3/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.formatting.provider": "yapf"
+}
