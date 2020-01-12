@@ -231,6 +231,16 @@ def annotate(
     return lines
 
 
+def lines_of_text(paths: Optional[List[str]]) -> Optional[List[str]]:
+    if not paths:
+        return None
+    lines = []
+    for path in paths:
+        with open(path) as f:
+            lines.extend(f.readlines())
+    return lines
+
+
 if __name__ == '__main__':
     prog = f'python3 {sys.argv[0]}'
     description = ('Command line interface for shuangpin_heatmap')
@@ -281,10 +291,22 @@ if __name__ == '__main__':
         help=f'line column max value (for line wrap), default: 80',
     )
     parser.add_argument(
+        '--input-text-files',
+        type=str,
+        nargs='+',
+        help=f"input text files (if specified, won't read from these files instead of stdin)",
+    )
+    parser.add_argument(
         '--interactive-mode',
         type=str2bool,
         default=False,
         help=f'interactive (tutorial) mode',
+    )
+    parser.add_argument(
+        '--heatmap-mode',
+        type=str2bool,
+        default=False,
+        help=f'heatmap mode',
     )
     args = parser.parse_args()
     shuangpin_schema_name = args.shuangpin_schema_name
@@ -294,8 +316,10 @@ if __name__ == '__main__':
     is_qwerty: bool = not use_dvorak
     output_directory: Optional[str] = args.output_directory
     output_svg_path: str = output_svg_path
-    interactive_mode: bool = args.interactive_mode
     line_column_max: int = args.line_column_max
+    input_text_files: Optional[List[str]] = args.input_text_files
+    interactive_mode: bool = args.interactive_mode
+    heatmap_mode: bool = args.heatmap_mode
 
     if list_all_shuangpin_schemas:
         print(
@@ -317,7 +341,10 @@ if __name__ == '__main__':
         exit(0)
 
     if interactive_mode:
-        for line in sys.stdin:
+        lines = lines_of_text(input_text_files)
+        if not lines:
+            print('reading from stdin (control-d to close)...')
+        for line in lines or sys.stdin:
             annotated = annotate(
                 line,
                 shuangpin_schema_name=shuangpin_schema_name,
@@ -326,6 +353,21 @@ if __name__ == '__main__':
             print('\n'.join(annotated))
         exit(0)
 
+    if heatmap_mode:
+        lines = lines_of_text(input_text_files)
+        if not lines:
+            print('reading from stdin (control-d to close)...')
+        for line in lines or sys.stdin:
+            print(line)
+        exit(0)
+
+    print("""
+    You are not in any of these modes:
+        --heatmap-mode 1                # let's do some statistics
+        --interactive-mode 1            # works like your shuangpin tutorial 
+
+    I'll generate a shuangpin keyboard layout now
+    """)
     svg = generate_keyboard_svg(
         is_qwerty=is_qwerty,
         shuangpin_schema_name=shuangpin_schema_name,
