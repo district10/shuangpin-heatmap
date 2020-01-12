@@ -21,6 +21,72 @@
 TODO:
 -   text -> pinyin -> shuangpin -> count -> heatmap
 
+## 练习模式
+
+用来练习双拼：
+
+```bash
+# 进入交互模式后，每输入一行文本，就会输出对应的双拼字符，用 control-d 退出
+$ python3 shuangpin_heatmap.py --interactive-mode 1
+神州行，我看行。
+ufvbxy，wokjxy。
+神州行，我看行。
+```
+
+默认自然码，可以换其他双拼模式：
+
+```
+$ python3 shuangpin_heatmap.py --list-all-shuangpin-schemas 1
+available shuangpin schemas:
+[
+    "pinyinjiajia",
+    "sougou",
+    "weiruan",
+    "xiaohe",
+    "zhinengabc",
+    "ziguang",
+    "ziranma"
+]
+
+$ python3 shuangpin_heatmap.py --interactive-mode 1 --shuangpin-schema-name sougou
+神州行，我看行。
+ufvbx;，wokjx;。
+神州行，我看行。
+```
+
+也可以输入一个文件：
+
+```bash
+$ python3 shuangpin_heatmap.py --interactive-mode 1 < data/sample2.txt
+Unix/Linuxbmiguijmjcig
+Unix/Linux编程实践教程
+
+zove: Bruce Molay / yhzsyr / hdhltk
+作者: Bruce Molay / 杨宗源 / 黄海涛
+iubjue: qyhwdaxtiubjue
+出版社: 清华大学出版社
+yrzomy: Understanding UNIX/LINUX Programming
+原作名: Understanding UNIX/LINUX Programming
+
+ckzoxitsuijisrjizvvsykdexitsrrjm。Unixckzoxitslijylejiuinm，vijnrguivulqdeckzo
+操作系统是计算机最重要的系统软件。Unix操作系统历经了几十年，至今仍是主流的操作
+xits。bfuutsgojxuiUnixdegszoyrli，xpxujmjndejdjxuixmUnixvsxitsmylydefhfa，rhdu
+系统。本书通过解释Unix的工作原理，循序渐进地讲解实现Unix中系统命令的方法，让读
+velijxbyvubujytsUnixxitsbmig，jnerjuybbmviUnixyyysigxudengli。uuvsclysqifaui、
+者理解并逐步精通Unix系统编程，进而具有编制Unix应用程序的能力。书中采用启发式、
+juyifjsj、tuuijdjxdgdovsfhfajdub，yuyjugds、jxgbheli、yiyulijx。mzyivhhbjpfuyb
+举一反三、图示讲解等多种方法讲授，语言生动、结构合理、易于理解。每一章后均附有
+dalddexitihebmiglmxi，yigscjkk。
+大量的习题和编程练习，以供参考。
+
+bfuuuihezowzgkdgyrxcjisrjijixdgrvryedejcclhejcxtcjkkuu，yikezowzybyidyxitsbmig
+本书适合作为高等院校计算机及相关专业的教材和教学参考书，亦可作为有一定系统编程
+jiiudeklfarfyrdezixtjcclhecjkkubce。
+基础的开发人员的自学教材和参考手册。
+```
+
+更多选项见 `--help` 帮助。
+
 ## References
 
 -   https://github.com/hankcs/HanLP

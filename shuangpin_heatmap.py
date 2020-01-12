@@ -1,4 +1,4 @@
-from pypinyin import pinyin, lazy_pinyin, Style
+import pypinyin
 from pyhanlp import *
 from typing import Union, Set, Dict, List, Any, Tuple, Optional
 from svg import SVG
@@ -159,6 +159,78 @@ def generate_keyboard_svg(
     return svg
 
 
+PINYIN2SHUANGPIN_CACHE = defaultdict(dict)
+
+
+def pinyin2shuangpin(pinyin: str, *,
+                     shuangpin_schema_name: str = 'ziranma') -> str:
+    cache = PINYIN2SHUANGPIN_CACHE[shuangpin_schema_name]
+    shuangpin_schema = get_schema(shuangpin_schema_name)
+    if pinyin in cache:
+        return cache[pinyin]
+    try:
+        shengs = shuangpin_schema['detail']['sheng']
+        yuns = shuangpin_schema['detail']['yun']
+        others = shuangpin_schema['detail']['other']
+        if pinyin in others:
+            cache[pinyin] = others[pinyin]
+        else:
+            for yun in yuns:
+                if not pinyin.endswith(yun):
+                    continue
+                idx = len(pinyin) - len(yun)
+                sheng = pinyin[:idx]
+                if sheng not in shengs:
+                    continue
+                sp_sheng = shengs[sheng]
+                sp_yun = yuns[yun]
+                if len(sp_yun) != 1:
+                    sp_yun = sp_yun[0]
+                cache[pinyin] = f'{sp_sheng}{sp_yun}'
+    except Exception as e:
+        raise e
+    cache.setdefault(pinyin, pinyin)
+    return cache[pinyin]
+
+
+def annotate(
+        line: str,
+        *,
+        shuangpin_schema_name: str = 'ziranma',
+        line_column_max: int = 80,
+        word_sep: str = '',
+        line_sep: Optional[str] = None,
+) -> List[str]:
+    segments = HanLP.segment(line.strip())
+    to_shuangpin = lambda pinyin: pinyin2shuangpin(pinyin, shuangpin_schema_name=shuangpin_schema_name)
+    lines = []
+    line_hz = []
+    line_zy = []
+    length = 0
+    for seg_idx, seg in enumerate(segments):
+        seg = str(seg)
+        idx = seg.rfind('/')
+        hanzi = seg[:idx]
+        annotations = []
+        for pinyin in pypinyin.pinyin(hanzi, style=pypinyin.Style.NORMAL):
+            pinyin = pinyin[0]
+            shuangpin = to_shuangpin(pinyin)
+            annotations.append(shuangpin)
+        zhuyin = ''.join(annotations)
+        line_hz.append(hanzi)
+        line_zy.append(zhuyin)
+        length += len(zhuyin)
+        if length > line_column_max or seg_idx == len(segments) - 1:
+            lines.append(word_sep.join(line_zy))
+            lines.append(word_sep.join(line_hz))
+            if line_sep:
+                lines.append(line_sep)
+            line_hz.clear()
+            line_zy.clear()
+            length = 0
+    return lines
+
+
 if __name__ == '__main__':
     prog = f'python3 {sys.argv[0]}'
     description = ('Command line interface for shuangpin_heatmap')
@@ -202,6 +274,18 @@ if __name__ == '__main__':
         default=output_svg_path,
         help=f'output svg path, default: {output_svg_path}',
     )
+    parser.add_argument(
+        '--line-column-max',
+        type=int,
+        default=80,
+        help=f'line column max value (for line wrap), default: 80',
+    )
+    parser.add_argument(
+        '--interactive-mode',
+        type=str2bool,
+        default=False,
+        help=f'interactive (tutorial) mode',
+    )
     args = parser.parse_args()
     shuangpin_schema_name = args.shuangpin_schema_name
     list_all_shuangpin_schemas: bool = args.list_all_shuangpin_schemas
@@ -210,6 +294,8 @@ if __name__ == '__main__':
     is_qwerty: bool = not use_dvorak
     output_directory: Optional[str] = args.output_directory
     output_svg_path: str = output_svg_path
+    interactive_mode: bool = args.interactive_mode
+    line_column_max: int = args.line_column_max
 
     if list_all_shuangpin_schemas:
         print(
@@ -230,8 +316,16 @@ if __name__ == '__main__':
                 svg, f'{output_directory}/{schema_name}.svg', log_saving=True)
         exit(0)
 
-    # print(pinyin('这是中文', style=Style.NORMAL))
-    # print(HanLP.segment('上海自来水来自海上'))
+    if interactive_mode:
+        for line in sys.stdin:
+            annotated = annotate(
+                line,
+                shuangpin_schema_name=shuangpin_schema_name,
+                line_column_max=line_column_max,
+            )
+            print('\n'.join(annotated))
+        exit(0)
+
     svg = generate_keyboard_svg(
         is_qwerty=is_qwerty,
         shuangpin_schema_name=shuangpin_schema_name,
