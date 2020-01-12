@@ -93,7 +93,7 @@ def write_svg_heatmap(svg: SVG, path: str,
 ) -> str:
     global KEYBOARD_LAYOUT_SVG_HEAD
     if not KEYBOARD_LAYOUT_SVG_HEAD:
-        with open(f'{DATA_DIR}/keyboard-layout.svg') as f:
+        with open(f'{PWD}/svgs/keyboard-layout.svg') as f:
             KEYBOARD_LAYOUT_SVG_HEAD = f.read().split(KEYBOARD_LAYOUT_SVG_TAIL)[0]
     BODY = '\n'.join(str(svg).split('\n')[1:-1])
     with open(path, 'w') as f:

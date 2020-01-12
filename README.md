@@ -1,10 +1,10 @@
 # shuangpin-heatmap
 
-TODO:
--   generate keyboard svg basemap
--   text -> pinyin -> shuangpin -> count -> heatmap
+从 http://www.keyboard-layout-editor.com/#/ 扒了一个 60% 键盘框架：
 
-## SVGs
+![](svgs/keyboard-layout.svg)
+
+生成双拼方案的 SVG：
 
 | 双拼方案 | QWERTY 键盘布局 | DVORAK 键盘布局 |
 | :-- | :--: | :--: |
@@ -15,6 +15,11 @@ TODO:
 | 智能ABC | ![](svgs/qwerty/zhinengabc.svg) | ![](svgs/dvorak/zhinengabc.svg) |
 | 紫光双拼 | ![](svgs/qwerty/ziguang.svg) | ![](svgs/dvorak/ziguang.svg) |
 | 自然码 | ![](svgs/qwerty/ziranma.svg) | ![](svgs/dvorak/ziranma.svg) |
+
+后面会把一些语料的 heatmap 渲染在上面。
+
+TODO:
+-   text -> pinyin -> shuangpin -> count -> heatmap
 
 ## References
 
