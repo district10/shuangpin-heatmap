@@ -1,7 +1,7 @@
 {
     "title": "常见双拼方案",
     "reference": "https://github.com/BlueSky-07/Shuang/blob/master/src/scheme",
-    "schemes": [
+    "schemas": [
         {
             "id": "pinyinjiajia",
             "name": "拼音加加",
