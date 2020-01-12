@@ -4,6 +4,18 @@ TODO:
 -   generate keyboard svg basemap
 -   text -> pinyin -> shuangpin -> count -> heatmap
 
+## SVGs
+
+| 双拼方案 | QWERTY 键盘布局 | DVORAK 键盘布局 |
+| :-- | :--: | :--: |
+| 拼音加加 | ![](svgs/qwerty/pinyinjiajia.svg) | ![](svgs/dvorak/pinyinjiajia.svg) |
+| 搜狗双拼 | ![](svgs/qwerty/sougou.svg) | ![](svgs/dvorak/sougou.svg) |
+| 微软双拼 | ![](svgs/qwerty/weiruan.svg) | ![](svgs/dvorak/weiruan.svg) |
+| 拼音加加 | ![](svgs/qwerty/xiaohe.svg) | ![](svgs/dvorak/xiaohe.svg) |
+| 智能ABC | ![](svgs/qwerty/zhinengabc.svg) | ![](svgs/dvorak/zhinengabc.svg) |
+| 紫光双拼 | ![](svgs/qwerty/ziguang.svg) | ![](svgs/dvorak/ziguang.svg) |
+| 自然码 | ![](svgs/qwerty/ziranma.svg) | ![](svgs/dvorak/ziranma.svg) |
+
 ## References
 
 -   https://github.com/hankcs/HanLP

@@ -1,0 +1,2118 @@
+<!--
+base on 
+      http://www.keyboard-layout-editor.com/#/
+      preset default 60%
+-->
+  <svg width='840px'
+       height='300px'
+       viewBox='0 0 840 300'
+       xmlns='http://www.w3.org/2000/svg'
+       xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <style type='text/css'>
+    .keycap .border { stroke: black; stroke-width: 2; }
+    .keycap .inner.border { stroke: rgba(0,0,0,.1); }
+    </style>
+    <defs>
+      <linearGradient id="DCS">
+        <stop offset="0%" stop-color="black" stop-opacity="0"/>
+        <stop offset="40%" stop-color="black" stop-opacity="0.1"/>
+        <stop offset="60%" stop-color="black" stop-opacity="0.1"/>
+        <stop offset="100%" stop-color="black" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="SPACE" x1="0%" x2="0%" y1="0%" y2="100%">
+        <stop offset="0%" stop-color="black" stop-opacity="0.1"/>
+        <stop offset="20%" stop-color="black" stop-opacity="0.0"/>
+        <stop offset="40%" stop-color="black" stop-opacity="0.0"/>
+        <stop offset="100%" stop-color="black" stop-opacity="0.1"/>
+      </linearGradient>
+      <radialGradient id="DSA">
+        <stop offset="0%" stop-color="black" stop-opacity="0.1"/>
+        <stop offset="10%" stop-color="black" stop-opacity="0.1"/>
+        <stop offset="100%" stop-color="black" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="SA" xlink:href="#DSA" />
+    </defs>
+
+    <g transform='translate(10,10)'>
+      <rect width="820" height="280"
+            stroke="#ddd" stroke-width="1" fill="#eeeeee" rx="6"/>
+      <g transform='translate(5,5)'>
+        
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="1" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="1" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="7" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="7" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="55" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="55" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="61" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="61" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="109" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="109" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="115" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="115" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="163" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="163" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="169" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="169" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="217" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="217" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="223" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="223" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="271" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="271" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="277" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="277" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="325" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="325" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="331" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="331" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="379" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="379" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="385" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="385" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="433" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="433" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="439" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="439" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="487" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="487" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="493" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="493" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="541" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="541" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="547" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="547" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="595" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="595" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="601" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="601" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="649" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="649" y="1"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="655" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="655" y="4"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="703" y="1"
+          width="106" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="703" y="1"
+          width="106" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="709" y="4"
+            width="94" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="709" y="4"
+            width="94" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="1" y="55"
+          width="79" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="1" y="55"
+          width="79" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="7" y="58"
+            width="67" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="7" y="58"
+            width="67" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="82" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="82" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="88" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="88" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="136" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="136" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="142" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="142" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="190" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="190" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="196" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="196" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="244" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="244" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="250" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="250" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="298" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="298" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="304" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="304" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="352" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="352" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="358" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="358" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="406" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="406" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="412" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="412" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="460" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="460" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="466" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="466" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="514" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="514" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="520" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="520" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="568" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="568" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="574" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="574" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="622" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="622" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="628" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="628" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="676" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="676" y="55"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="682" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="682" y="58"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="730" y="55"
+          width="79" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="730" y="55"
+          width="79" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="736" y="58"
+            width="67" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="736" y="58"
+            width="67" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="1" y="109"
+          width="92.5" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="1" y="109"
+          width="92.5" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="7" y="112"
+            width="80.5" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="7" y="112"
+            width="80.5" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="95.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="95.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="101.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="101.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="149.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="149.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="155.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="155.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="203.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="203.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="209.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="209.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="257.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="257.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="263.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="263.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="311.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="311.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="317.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="317.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="365.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="365.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="371.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="371.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="419.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="419.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="425.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="425.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="473.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="473.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="479.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="479.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="527.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="527.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="533.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="533.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="581.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="581.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="587.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="587.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="635.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="635.5" y="109"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="641.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="641.5" y="112"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="689.5" y="109"
+          width="119.5" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="689.5" y="109"
+          width="119.5" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="695.5" y="112"
+            width="107.5" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="695.5" y="112"
+            width="107.5" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="1" y="163"
+          width="119.5" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="1" y="163"
+          width="119.5" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="7" y="166"
+            width="107.5" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="7" y="166"
+            width="107.5" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="122.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="122.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="128.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="128.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="176.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="176.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="182.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="182.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="230.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="230.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="236.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="236.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="284.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="284.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="290.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="290.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="338.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="338.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="344.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="344.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="392.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="392.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="398.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="398.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="446.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="446.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="452.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="452.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="500.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="500.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="506.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="506.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="554.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="554.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="560.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="560.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="608.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="608.5" y="163"
+          width="52" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="614.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="614.5" y="166"
+            width="40" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="662.5" y="163"
+          width="146.5" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="662.5" y="163"
+          width="146.5" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="668.5" y="166"
+            width="134.5" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="668.5" y="166"
+            width="134.5" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="1" y="217"
+          width="65.5" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="1" y="217"
+          width="65.5" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="7" y="220"
+            width="53.5" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="7" y="220"
+            width="53.5" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="68.5" y="217"
+          width="65.5" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="68.5" y="217"
+          width="65.5" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="74.5" y="220"
+            width="53.5" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="74.5" y="220"
+            width="53.5" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="136" y="217"
+          width="65.5" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="136" y="217"
+          width="65.5" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="142" y="220"
+            width="53.5" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="142" y="220"
+            width="53.5" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="203.5" y="217"
+          width="335.5" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="203.5" y="217"
+          width="335.5" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="209.5" y="220"
+            width="323.5" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="209.5" y="220"
+            width="323.5" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="541" y="217"
+          width="65.5" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="541" y="217"
+          width="65.5" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="547" y="220"
+            width="53.5" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="547" y="220"
+            width="53.5" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="608.5" y="217"
+          width="65.5" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="608.5" y="217"
+          width="65.5" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="614.5" y="220"
+            width="53.5" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="614.5" y="220"
+            width="53.5" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="676" y="217"
+          width="65.5" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="676" y="217"
+          width="65.5" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="682" y="220"
+            width="53.5" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="682" y="220"
+            width="53.5" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+  <g class='  keycap'
+  >
+
+  
+    <!-- Outer Border -->
+    <rect x="743.5" y="217"
+          width="65.5" height="52"
+          rx="5" fill="#cccccc" class="outer border"/>
+    
+    <!-- Outer Fill -->
+    <rect x="743.5" y="217"
+          width="65.5" height="52"
+          rx="5" fill="#cccccc"/>
+    
+
+    
+      <!-- Inner Border -->
+      <rect x="749.5" y="220"
+            width="53.5" height="40"
+            rx="5" fill="#fcfcfc" class="inner border"/>
+      
+      <!-- Inner Fill -->
+      <rect x="749.5" y="220"
+            width="53.5" height="40"
+            rx="5" fill="#fcfcfc"/>
+      
+      
+
+     
+   
+  </g>
+
+      </g>
+    </g>
+  	<text alignment-baseline='hanging' text-anchor='start' x='110' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>;</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='164' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>,</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='218' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>.</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='272' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>K</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='326' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>Y</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='380' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>F</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='434' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>G</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='488' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>C</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='542' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>L</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='596' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>Z</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='650' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>[</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='704' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>]</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='758' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>\</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='123.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>A</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='177.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>O</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='231.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>E</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='285.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>I</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='339.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>U</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='393.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>D</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='447.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>R</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='501.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>T</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='555.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>S</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='609.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>N</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='663.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>&#x27;</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='150.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>P</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='204.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>Q</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='258.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>J</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='312.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>H</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='366.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>X</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='420.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>B</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='474.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>M</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='528.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>W</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='582.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>V</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='636.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>/</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='29' y='30' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>~</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='83' y='30' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>!</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='137' y='30' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>@</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='191' y='30' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>#</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='245' y='30' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>$</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='299' y='30' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>%</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='353' y='30' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>^</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='407' y='30' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>&amp;</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='461' y='30' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>*</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='515' y='30' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>(</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='569' y='30' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>)</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='623' y='30' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>_</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='677' y='30' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>+</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='29' y='40' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>`</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='83' y='40' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>1</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='137' y='40' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>2</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='191' y='40' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>3</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='245' y='40' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>4</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='299' y='40' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>5</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='353' y='40' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>6</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='407' y='40' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>7</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='461' y='40' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>8</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='515' y='40' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>9</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='569' y='40' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>0</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='623' y='40' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>-</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='677' y='40' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>=</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='731' y='30' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>BACKSPACE</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='29' y='84' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>TAB</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='29' y='138' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>CAPS LOCK</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='717.5' y='138.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ENTER</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='29' y='192' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>SHIFT (L)</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='690.5' y='192.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>SHIFT (R)</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='445.5' y='192.0' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>b</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='513' y='84' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>c</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='418.5' y='138.0' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>d</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='405' y='84' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>f</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='459' y='84' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>g</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='337.5' y='192.0' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>h</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='283.5' y='192.0' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>j</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='297' y='84' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>k</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='567' y='84' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>l</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='499.5' y='192.0' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>m</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='634.5' y='138.0' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>n</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='175.5' y='192.0' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>p</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='229.5' y='192.0' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>q</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='472.5' y='138.0' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>r</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='580.5' y='138.0' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>s</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='526.5' y='138.0' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>t</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='553.5' y='192.0' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>w</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='391.5' y='192.0' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>x</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='351' y='84' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>y</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='621' y='84' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>z</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='256.5' y='138.0' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>ch</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='607.5' y='192.0' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>sh</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='148.5' y='138.0' fill='rgb(0,255,0)' font-size='10' font-family='monospace'>zh</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='148.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>a</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='567' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ai</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='283.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>an</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='337.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ang</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='297' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ao</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='256.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>e</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='229.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ei</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='405' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>en</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='459' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>eng</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='310.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>i</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='418.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ia</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='553.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ian</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='526.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>iang</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='621' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>iao</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='391.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ie</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='580.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>iong</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='513' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>in</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='351' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ing</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='472.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>iu</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='202.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>o</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='580.5' y='162.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ong</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='445.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ou</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='364.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>u</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='418.5' y='162.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ua</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='513' y='108' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>uai</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='175.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>uan</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='526.5' y='162.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>uang</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='499.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ue</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='499.5' y='216.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ui</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='634.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>un</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='202.5' y='162.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>uo</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='607.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>v</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='607.5' y='216.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ve</text>
+	<text alignment-baseline='middle' text-anchor='middle' x='385' y='255' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>智能ABC</text></svg>
