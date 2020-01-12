@@ -126,11 +126,14 @@ class SVG(Object):
             super().__init__(np.array([[x, y]]), fill, 1, fill)
             self.text: str = text
             self.fontsize: float = fontsize
+            # hanging, middle, baseline
+            self.alignment_baseline: str = 'hanging'
+            # start, middle, end
             self.text_anchor: str = 'start'
 
         def __repr__(self):
             text = html.escape(self.text)
-            return f"<text alignment-baseline='hanging' text-anchor='{self.text_anchor}' x='{self.x}' y='{self.y}' fill='{rgb(self.fill)}' font-size='{self.fontsize}' font-family='monospace'>{text}</text>"
+            return f"<text alignment-baseline='{self.alignment_baseline}' text-anchor='{self.text_anchor}' x='{self.x}' y='{self.y}' fill='{rgb(self.fill)}' font-size='{self.fontsize}' font-family='monospace'>{text}</text>"
 
     def __repr__(self):
         lines = []
