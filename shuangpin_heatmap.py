@@ -50,7 +50,6 @@ for k in key2pos:
     key2pos[k][0] += 22  # tweak a little bit
     key2pos[k][1] += 26
 
-
 RED = 255, 0, 0
 GREEN = 0, 255, 0
 BLUE = 0, 0, 255
@@ -87,14 +86,17 @@ def get_schema(schema: Optional[str] = None) -> Union[Dict, List[str]]:
     return SHUANGPIN_SCHEMAS[schema]
 
 
-def write_svg_heatmap(svg: SVG, path: str,
+def write_svg_heatmap(
+        svg: SVG,
+        path: str,
         *,
         log_saving: bool = False,
 ) -> str:
     global KEYBOARD_LAYOUT_SVG_HEAD
     if not KEYBOARD_LAYOUT_SVG_HEAD:
         with open(f'{PWD}/svgs/keyboard-layout.svg') as f:
-            KEYBOARD_LAYOUT_SVG_HEAD = f.read().split(KEYBOARD_LAYOUT_SVG_TAIL)[0]
+            KEYBOARD_LAYOUT_SVG_HEAD = f.read().split(
+                KEYBOARD_LAYOUT_SVG_TAIL)[0]
     BODY = '\n'.join(str(svg).split('\n')[1:-1])
     with open(path, 'w') as f:
         f.write(KEYBOARD_LAYOUT_SVG_HEAD)
@@ -144,7 +146,8 @@ def generate_keyboard_svg(
             k = k[0]
         x, y = key2pos[k if is_qwerty else d2q[k]]
         yun_counter[k] += 1
-        text = SVG.Text(x + sheng_yun_x_offset, y + yun_counter[k] * sheng_yun_y_offset, f'{yun}', GRAY)
+        text = SVG.Text(x + sheng_yun_x_offset,
+                        y + yun_counter[k] * sheng_yun_y_offset, f'{yun}', GRAY)
         text.text_anchor = 'end'
         svg.children.append(text)
     if title is None or title:
@@ -209,7 +212,9 @@ if __name__ == '__main__':
     output_svg_path: str = output_svg_path
 
     if list_all_shuangpin_schemas:
-        print(f'available shuangpin schemas:\n{json.dumps(get_schema(), indent=4)}')
+        print(
+            f'available shuangpin schemas:\n{json.dumps(get_schema(), indent=4)}'
+        )
         exit(0)
 
     if dump_all_shuangpin_layout:
@@ -221,7 +226,8 @@ if __name__ == '__main__':
                 is_qwerty=is_qwerty,
                 shuangpin_schema_name=schema_name,
             )
-            write_svg_heatmap(svg, f'{output_directory}/{schema_name}.svg', log_saving=True)
+            write_svg_heatmap(
+                svg, f'{output_directory}/{schema_name}.svg', log_saving=True)
         exit(0)
 
     # print(pinyin('这是中文', style=Style.NORMAL))

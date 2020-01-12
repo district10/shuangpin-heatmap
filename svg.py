@@ -4,7 +4,6 @@ from typing import Union, Set, Dict, List, Any, Tuple, Optional
 import html
 # based on https://github.com/cubao/naive-svg/blob/master/naive_svg.py
 
-
 Pixel = Tuple[float, float]
 Pixels = List[Pixel]
 Color = Union[Tuple[int, int, int], Tuple[int, int, int, float], None]
@@ -63,7 +62,6 @@ class SVG(Object):
         self.grid_step: float = -1
         self.grid_color: Color = [155, 155, 155]
         self.background: Color = None
-
 
     class Polyline(Object):
 
