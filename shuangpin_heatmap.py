@@ -133,7 +133,7 @@ def generate_keyboard_svg(
             c = key2count[k]
             r = count2radius(c)
             R = count2red(c)
-            text = SVG.Text(x+15, y+35, f'{c}', [0, 0, 0, 0.4], 4)
+            text = SVG.Text(x+15, y+35, f'{c:,}', [0, 0, 0, 0.4], 4)
             text.text_anchor = 'middle'
             svg.children.append(text)
             svg.children.append(SVG.Circle(x+15, y+10, r, [R, 255 - R, 0, 0.3]))
@@ -285,7 +285,7 @@ def lines_of_text(paths: Optional[List[str]]) -> Optional[List[str]]:
 def to_key2count(
         *,
         lines: Optional[List[str]] = None,
-        hanzi2freq: Optional[Dict[str, int]] = None,
+        hanzi2count: Optional[Dict[str, int]] = None,
         shuangpin_schema_name: str,
 ) -> Dict[str, int]:
     to_key_stroke = lambda text: text2key_strokes(text, shuangpin_schema_name=shuangpin_schema_name)
@@ -293,9 +293,9 @@ def to_key2count(
     for line in lines or []:
         for key in to_key_stroke(line):
             key2count[key] += 1
-    for hanzi, freq in (hanzi2freq or {}).items():
+    for hanzi, count in (hanzi2count or {}).items():
         for key in to_key_stroke(hanzi):
-            key2count[key] += freq
+            key2count[key] += count
     return key2count
 
 
@@ -418,15 +418,28 @@ if __name__ == '__main__':
         exit(0)
 
     if heatmap_mode:
-        lines = lines_of_text(input_text_files) or []
-        if not lines:
-            print('reading from stdin (control-d to close)...')
-            for line in sys.stdin:
-                lines.append(line)
+        lines = None
+        # lines = lines_of_text(input_text_files) or []
+        # if not lines:
+        #     print('reading from stdin (control-d to close)...')
+        #     for line in sys.stdin:
+        #         lines.append(line)
+
+        hanzi2count = defaultdict(int)
+        input_path = f'{PWD}/data/3000.txt'
+        with open(input_path) as f:
+            for idx, line in enumerate(f):
+                if '\t' not in line:
+                    continue
+                if idx > 1000:
+                    continue
+                hanzi, count = line.split('\t')[1:3]
+                hanzi2count[hanzi] = int(count)
         if output_directory is None:
             schema_name = get_schema(shuangpin_schema_name)['name']
             key2count = to_key2count(
                 lines=lines,
+                hanzi2count=hanzi2count,
                 shuangpin_schema_name=shuangpin_schema_name,
             )
             svg = generate_keyboard_svg(
@@ -445,6 +458,7 @@ if __name__ == '__main__':
                     title = f'{schema_name}'
                     key2count = to_key2count(
                         lines=lines,
+                        hanzi2count=hanzi2count,
                         shuangpin_schema_name=schema_id,
                     )
                     svg = generate_keyboard_svg(
