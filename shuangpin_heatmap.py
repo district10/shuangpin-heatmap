@@ -8,6 +8,7 @@ import json
 import argparse
 import tempfile
 from collections import defaultdict
+import numpy as np
 
 PWD = os.path.abspath(os.path.dirname(__file__))
 DATA_DIR = f'{PWD}/data'
@@ -116,6 +117,13 @@ def generate_keyboard_svg(
     d2q = {kd: kq for kq, kd in zip(QWERTY, DVORAK)}
     q2d = {kq: kd for kq, kd in zip(QWERTY, DVORAK)}
     svg = SVG(400, 300)
+
+    if key2count:
+        cmax = max(key2count.values())
+        rmax = 40
+        count2radius = lambda c: np.interp(c, [0, cmax], [10, rmax])
+        count2red = lambda c: np.interp(c, [0, cmax], [0, 255])
+
     # letters
     for kq, kd in zip(QWERTY, DVORAK):
         x, y = key2pos[kq]
@@ -123,9 +131,12 @@ def generate_keyboard_svg(
         svg.children.append(SVG.Text(x, y, f'{k.upper()}'))
         if key2count and k in key2count:
             c = key2count[k]
+            r = count2radius(c)
+            R = count2red(c)
             text = SVG.Text(x+15, y+35, f'{c}', [0, 0, 0, 0.4], 4)
             text.text_anchor = 'middle'
             svg.children.append(text)
+            svg.children.append(SVG.Circle(x+15, y+10, r, [R, 255 - R, 0, 0.3]))
     # numbers, punctuations
     for i, k in enumerate(OTHER_KEYS):
         x, y = key2pos[k]
@@ -141,7 +152,8 @@ def generate_keyboard_svg(
     sheng_yun_y_offset = 12
     for sheng, k in shuangpin_schema['detail']['sheng'].items():
         x, y = key2pos[k if is_qwerty else d2q[k]]
-        text = SVG.Text(x + sheng_yun_x_offset, y, f'{sheng}', GREEN)
+        stroke = BLUE if key2count else GREEN
+        text = SVG.Text(x + sheng_yun_x_offset, y, f'{sheng}', stroke)
         text.text_anchor = 'end'
         svg.children.append(text)
     yun_counter = defaultdict(int)
@@ -270,6 +282,23 @@ def lines_of_text(paths: Optional[List[str]]) -> Optional[List[str]]:
     return lines
 
 
+def to_key2count(
+        *,
+        lines: Optional[List[str]] = None,
+        hanzi2freq: Optional[Dict[str, int]] = None,
+        shuangpin_schema_name: str,
+) -> Dict[str, int]:
+    to_key_stroke = lambda text: text2key_strokes(text, shuangpin_schema_name=shuangpin_schema_name)
+    key2count = defaultdict(int)
+    for line in lines or []:
+        for key in to_key_stroke(line):
+            key2count[key] += 1
+    for hanzi, freq in (hanzi2freq or {}).items():
+        for key in to_key_stroke(hanzi):
+            key2count[key] += freq
+    return key2count
+
+
 if __name__ == '__main__':
     prog = f'python3 {sys.argv[0]}'
     description = ('Command line interface for shuangpin_heatmap')
@@ -394,19 +423,37 @@ if __name__ == '__main__':
             print('reading from stdin (control-d to close)...')
             for line in sys.stdin:
                 lines.append(line)
-        strokes = text2key_strokes(
-            ''.join(lines),
-            shuangpin_schema_name='ziranma',
-        )
-        key2count = defaultdict(int)
-        for key in strokes:
-            key2count[key] += 1
-        svg = generate_keyboard_svg(
-            is_qwerty=is_qwerty,
-            shuangpin_schema_name=shuangpin_schema_name,
-            key2count=key2count,
-        )
-        write_svg_heatmap(svg, output_svg_path, log_saving=True)
+        if output_directory is None:
+            schema_name = get_schema(shuangpin_schema_name)['name']
+            key2count = to_key2count(
+                lines=lines,
+                shuangpin_schema_name=shuangpin_schema_name,
+            )
+            svg = generate_keyboard_svg(
+                is_qwerty=is_qwerty,
+                shuangpin_schema_name=shuangpin_schema_name,
+                key2count=key2count,
+                title=f'{schema_name} (#{np.sum(list(key2count.values())):,} strokes)'
+            )
+            write_svg_heatmap(svg, output_svg_path, log_saving=True)
+        else:
+            mkdir_p(output_directory)
+            for schema_id in get_schema():
+                for layout in ['qwerty', 'dvorak']:
+                    schema_name = get_schema(schema_id)['name']
+                    output_svg_path = f'{output_directory}/{schema_id}_{layout}.svg'
+                    title = f'{schema_name}'
+                    key2count = to_key2count(
+                        lines=lines,
+                        shuangpin_schema_name=schema_id,
+                    )
+                    svg = generate_keyboard_svg(
+                        is_qwerty=layout == 'qwerty',
+                        shuangpin_schema_name=schema_id,
+                        key2count=key2count,
+                        title=f'{schema_name} (#{np.sum(list(key2count.values())):,} strokes)'
+                    )
+                    write_svg_heatmap(svg, output_svg_path, log_saving=True)
         exit(0)
 
     print("""
