@@ -111,6 +111,7 @@ def generate_keyboard_svg(
         is_qwerty: bool = True,
         shuangpin_schema_name: str = 'ziranma',
         title: Optional[str] = None,
+        key2count: Optional[Dict[str, int]] = None,
 ) -> SVG:
     d2q = {kd: kq for kq, kd in zip(QWERTY, DVORAK)}
     q2d = {kq: kd for kq, kd in zip(QWERTY, DVORAK)}
@@ -120,6 +121,11 @@ def generate_keyboard_svg(
         x, y = key2pos[kq]
         k = kq if is_qwerty else kd
         svg.children.append(SVG.Text(x, y, f'{k.upper()}'))
+        if key2count and k in key2count:
+            c = key2count[k]
+            text = SVG.Text(x+15, y+35, f'{c}', [0, 0, 0, 0.4], 4)
+            text.text_anchor = 'middle'
+            svg.children.append(text)
     # numbers, punctuations
     for i, k in enumerate(OTHER_KEYS):
         x, y = key2pos[k]
@@ -162,8 +168,11 @@ def generate_keyboard_svg(
 PINYIN2SHUANGPIN_CACHE = defaultdict(dict)
 
 
-def pinyin2shuangpin(pinyin: str, *,
-                     shuangpin_schema_name: str = 'ziranma') -> str:
+def pinyin2shuangpin(
+        pinyin: str,
+        *,
+        shuangpin_schema_name: str = 'ziranma',
+) -> str:
     cache = PINYIN2SHUANGPIN_CACHE[shuangpin_schema_name]
     shuangpin_schema = get_schema(shuangpin_schema_name)
     if pinyin in cache:
@@ -191,6 +200,26 @@ def pinyin2shuangpin(pinyin: str, *,
         raise e
     cache.setdefault(pinyin, pinyin)
     return cache[pinyin]
+
+
+def text2key_strokes(
+        text: str,
+        *,
+        shuangpin_schema_name: Optional[str] = None,
+) -> str:
+    if shuangpin_schema_name is None:
+        to_key_strokes = lambda pinyin: pinyin
+    else:
+        to_key_strokes = lambda pinyin: pinyin2shuangpin(
+            pinyin, shuangpin_schema_name=shuangpin_schema_name)
+    strokes = []
+    for pinyin in pypinyin.pinyin(text, style=pypinyin.Style.NORMAL, errors='ignore'):
+        try:
+            ss = to_key_strokes(pinyin[0])
+            strokes.append(ss)
+        except Exception as e:
+            print(repr(e))
+    return ''.join(strokes)
 
 
 def annotate(
@@ -340,7 +369,7 @@ if __name__ == '__main__':
                 svg, f'{output_directory}/{schema_name}.svg', log_saving=True)
         exit(0)
 
-    if interactive_mode or input_text_files:
+    if not heatmap_mode and (interactive_mode or input_text_files):
         lines = lines_of_text(input_text_files)
         if not lines:
             print('reading from stdin (control-d to close)...')
@@ -360,11 +389,24 @@ if __name__ == '__main__':
         exit(0)
 
     if heatmap_mode:
-        lines = lines_of_text(input_text_files)
+        lines = lines_of_text(input_text_files) or []
         if not lines:
             print('reading from stdin (control-d to close)...')
-        for line in lines or sys.stdin:
-            print(line)
+            for line in sys.stdin:
+                lines.append(line)
+        strokes = text2key_strokes(
+            ''.join(lines),
+            shuangpin_schema_name='ziranma',
+        )
+        key2count = defaultdict(int)
+        for key in strokes:
+            key2count[key] += 1
+        svg = generate_keyboard_svg(
+            is_qwerty=is_qwerty,
+            shuangpin_schema_name=shuangpin_schema_name,
+            key2count=key2count,
+        )
+        write_svg_heatmap(svg, output_svg_path, log_saving=True)
         exit(0)
 
     print("""
