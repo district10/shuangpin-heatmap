@@ -38,6 +38,8 @@ ufvbxy，wokjxy。
 神州行，我看行。
 ```
 
+[![asciicast](https://asciinema.org/a/293837.svg)](https://asciinema.org/a/293837)
+
 默认自然码，可以换其他双拼模式：
 
 ```

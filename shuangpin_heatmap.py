@@ -340,7 +340,7 @@ if __name__ == '__main__':
                 svg, f'{output_directory}/{schema_name}.svg', log_saving=True)
         exit(0)
 
-    if interactive_mode:
+    if interactive_mode or input_text_files:
         lines = lines_of_text(input_text_files)
         if not lines:
             print('reading from stdin (control-d to close)...')
@@ -351,6 +351,12 @@ if __name__ == '__main__':
                 line_column_max=line_column_max,
             )
             print('\n'.join(annotated))
+            if interactive_mode and lines:
+                # for your practice
+                try:
+                    sys.stdin.readline()
+                except Exception as e:
+                    pass
         exit(0)
 
     if heatmap_mode:
