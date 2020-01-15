@@ -418,23 +418,22 @@ if __name__ == '__main__':
         exit(0)
 
     if heatmap_mode:
-        lines = None
-        # lines = lines_of_text(input_text_files) or []
-        # if not lines:
-        #     print('reading from stdin (control-d to close)...')
-        #     for line in sys.stdin:
-        #         lines.append(line)
-
-        hanzi2count = defaultdict(int)
-        input_path = f'{PWD}/data/3000.txt'
-        with open(input_path) as f:
-            for idx, line in enumerate(f):
-                if '\t' not in line:
-                    continue
-                if idx > 1000:
-                    continue
-                hanzi, count = line.split('\t')[1:3]
-                hanzi2count[hanzi] = int(count)
+        lines = lines_of_text(input_text_files) or []
+        if not lines:
+            print('reading from stdin (control-d to close)...')
+            for line in sys.stdin:
+                lines.append(line)
+        hanzi2count = None
+        # hanzi2count = defaultdict(int)
+        # input_path = f'{PWD}/data/3000.txt'
+        # with open(input_path) as f:
+        #     for idx, line in enumerate(f):
+        #         if '\t' not in line:
+        #             continue
+        #         if idx > 1000:
+        #             continue
+        #         hanzi, count = line.split('\t')[1:3]
+        #         hanzi2count[hanzi] = int(count)
         if output_directory is None:
             schema_name = get_schema(shuangpin_schema_name)['name']
             key2count = to_key2count(
