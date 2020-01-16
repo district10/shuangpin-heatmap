@@ -55,7 +55,7 @@ HEAD = """
         <meta http-equiv='content-type' content='text/html; charset=utf-8' />
         <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge' >
-        <title>semantic mapping svg viewer</title>
+        <title>svg viewer</title>
         <style type="text/css">
             body, html {
                 position: fixed;
