@@ -33,6 +33,13 @@ make prepare # 等价于 python3 -m pip install -r requirements.txt
 | 紫光双拼 | ![](heatmaps/ziguang_qwerty.svg) | ![](heatmaps/ziguang_dvorak.svg) |
 | 自然码 | ![](heatmaps/ziranma_qwerty.svg) | ![](heatmaps/ziranma_dvorak.svg) |
 
+查看 svg：
+
+```bash
+python3 svg_player.py heatmaps/*.svg
+python3 svg_player.py svgs/dvorak/*.svg svgs/qwerty/*.svg
+```
+
 ## 练习模式
 
 用来练习双拼：（shell 下用等宽字体，一个中文正好对应双拼的两个英文字符）
