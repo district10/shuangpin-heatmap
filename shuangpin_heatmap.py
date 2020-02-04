@@ -184,8 +184,11 @@ def pinyin2shuangpin(
         pinyin: str,
         *,
         shuangpin_schema_name: str = 'ziranma',
+        cache: Optional[Dict] = None,
+        translated: Optional[Dict] = None,
 ) -> str:
-    cache = PINYIN2SHUANGPIN_CACHE[shuangpin_schema_name]
+    if cache is None:
+        cache = PINYIN2SHUANGPIN_CACHE[shuangpin_schema_name]
     shuangpin_schema = get_schema(shuangpin_schema_name)
     if pinyin in cache:
         return cache[pinyin]
@@ -208,6 +211,9 @@ def pinyin2shuangpin(
                 if len(sp_yun) != 1:
                     sp_yun = sp_yun[0]
                 cache[pinyin] = f'{sp_sheng}{sp_yun}'
+                if translated is not None:
+                    translated[sheng] = sp_sheng
+                    translated[yun] = sp_yun
     except Exception as e:
         raise e
     cache.setdefault(pinyin, pinyin)
