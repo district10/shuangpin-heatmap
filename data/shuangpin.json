@@ -591,6 +591,7 @@
             "id": "buziranma",
             "name": "不自然码",
             "tips": [
+                "定制，基于自然码"
             ],
             "detail": {
                 "sheng": {
