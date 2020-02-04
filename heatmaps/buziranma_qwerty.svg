@@ -1993,93 +1993,91 @@ base on
 
       </g>
     </g>
-  	<text alignment-baseline='hanging' text-anchor='start' x='110' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>;</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='125' y='119' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>161,001</text>
-	<circle r='13.571577518279264' cx='125' cy='94' style='stroke:rgba(30.358408905373746,224.64159109462625,0,0.3);stroke-width:1;fill:rgba(30.358408905373746,224.64159109462625,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='164' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>,</text>
-	<text alignment-baseline='hanging' text-anchor='start' x='218' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>.</text>
-	<text alignment-baseline='hanging' text-anchor='start' x='272' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>K</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='287' y='119' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>290,308</text>
-	<circle r='16.440068857812168' cx='287' cy='94' style='stroke:rgba(54.74058529140342,200.25941470859658,0,0.3);stroke-width:1;fill:rgba(54.74058529140342,200.25941470859658,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='326' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>Y</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='341' y='119' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>631,697</text>
-	<circle r='24.01329683396039' cx='341' cy='94' style='stroke:rgba(119.1130230886633,135.88697691133672,0,0.3);stroke-width:1;fill:rgba(119.1130230886633,135.88697691133672,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='380' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>F</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='395' y='119' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>357,523</text>
-	<circle r='17.93113775111805' cx='395' cy='94' style='stroke:rgba(67.41467088450344,187.58532911549656,0,0.3);stroke-width:1;fill:rgba(67.41467088450344,187.58532911549656,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='434' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>G</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='449' y='119' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>374,450</text>
-	<circle r='18.30663909987932' cx='449' cy='94' style='stroke:rgba(70.60643234897422,184.39356765102576,0,0.3);stroke-width:1;fill:rgba(70.60643234897422,184.39356765102576,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='488' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>C</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='503' y='119' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>64,663</text>
-	<circle r='11.434456413714772' cx='503' cy='94' style='stroke:rgba(12.192879516575566,242.80712048342443,0,0.3);stroke-width:1;fill:rgba(12.192879516575566,242.80712048342443,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='542' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>L</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='557' y='119' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>407,305</text>
-	<circle r='19.03548040746788' cx='557' cy='94' style='stroke:rgba(76.80158346347696,178.19841653652304,0,0.3);stroke-width:1;fill:rgba(76.80158346347696,178.19841653652304,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='596' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>Z</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='611' y='119' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>432,635</text>
-	<circle r='19.59739032441258' cx='611' cy='94' style='stroke:rgba(81.57781775750692,173.42218224249308,0,0.3);stroke-width:1;fill:rgba(81.57781775750692,173.42218224249308,0,0.3)' />
+  	<text alignment-baseline='hanging' text-anchor='start' x='110' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>Q</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='125' y='119' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>246,998</text>
+	<circle r='15.43918269195479' cx='125' cy='94' style='stroke:rgba(46.233052881615706,208.76694711838428,0,0.3);stroke-width:1;fill:rgba(46.233052881615706,208.76694711838428,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='164' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>W</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='179' y='119' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>399,850</text>
+	<circle r='18.80516117287639' cx='179' cy='94' style='stroke:rgba(74.8438699694493,180.15613003055068,0,0.3);stroke-width:1;fill:rgba(74.8438699694493,180.15613003055068,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='218' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>E</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='233' y='119' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>978,961</text>
+	<circle r='31.557857664024617' cx='233' cy='94' style='stroke:rgba(183.24179014420923,71.75820985579077,0,0.3);stroke-width:1;fill:rgba(183.24179014420923,71.75820985579077,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='272' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>R</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='287' y='119' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>381,376</text>
+	<circle r='18.398342247009893' cx='287' cy='94' style='stroke:rgba(71.38590909958408,183.61409090041593,0,0.3);stroke-width:1;fill:rgba(71.38590909958408,183.61409090041593,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='326' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>T</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='341' y='119' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>429,083</text>
+	<circle r='19.448905768516493' cx='341' cy='94' style='stroke:rgba(80.31569903239019,174.68430096760983,0,0.3);stroke-width:1;fill:rgba(80.31569903239019,174.68430096760983,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='380' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>Y</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='395' y='119' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>536,860</text>
+	<circle r='21.822280423334796' cx='395' cy='94' style='stroke:rgba(100.48938359834577,154.51061640165423,0,0.3);stroke-width:1;fill:rgba(100.48938359834577,154.51061640165423,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='434' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>U</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='449' y='119' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>580,174</text>
+	<circle r='22.776104985150397' cx='449' cy='94' style='stroke:rgba(108.59689237377837,146.40310762622164,0,0.3);stroke-width:1;fill:rgba(108.59689237377837,146.40310762622164,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='488' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>I</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='503' y='119' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>1,362,326</text>
+	<circle r='40.0' cx='503' cy='94' style='stroke:rgba(255.0,0.0,0,0.3);stroke-width:1;fill:rgba(255.0,0.0,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='542' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>O</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='557' y='119' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>291,943</text>
+	<circle r='16.42892376714531' cx='557' cy='94' style='stroke:rgba(54.64585202073512,200.3541479792649,0,0.3);stroke-width:1;fill:rgba(54.64585202073512,200.3541479792649,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='596' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>P</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='611' y='119' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>121,469</text>
+	<circle r='12.674888389416337' cx='611' cy='94' style='stroke:rgba(22.73655131003886,232.26344868996114,0,0.3);stroke-width:1;fill:rgba(22.73655131003886,232.26344868996114,0,0.3)' />
 	<text alignment-baseline='hanging' text-anchor='start' x='650' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>[</text>
 	<text alignment-baseline='hanging' text-anchor='start' x='704' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>]</text>
 	<text alignment-baseline='hanging' text-anchor='start' x='758' y='84' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>\</text>
 	<text alignment-baseline='hanging' text-anchor='start' x='123.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>A</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='138.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>377,421</text>
-	<circle r='18.37254649677007' cx='138.5' cy='148.0' style='stroke:rgba(71.16664522254561,183.8333547774544,0,0.3);stroke-width:1;fill:rgba(71.16664522254561,183.8333547774544,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='177.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>O</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='192.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>348,874</text>
-	<circle r='17.73927202385178' cx='192.5' cy='148.0' style='stroke:rgba(65.78381220274011,189.2161877972599,0,0.3);stroke-width:1;fill:rgba(65.78381220274011,189.2161877972599,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='231.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>E</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='246.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>641,479</text>
-	<circle r='24.23029655001065' cx='246.5' cy='148.0' style='stroke:rgba(120.9575206750905,134.0424793249095,0,0.3);stroke-width:1;fill:rgba(120.9575206750905,134.0424793249095,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='285.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>I</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='300.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>1,352,352</text>
-	<circle r='40.0' cx='300.5' cy='148.0' style='stroke:rgba(255.0,0.0,0,0.3);stroke-width:1;fill:rgba(255.0,0.0,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='339.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>U</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='354.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>749,657</text>
-	<circle r='26.63007116490381' cx='354.5' cy='148.0' style='stroke:rgba(141.3556049016824,113.6443950983176,0,0.3);stroke-width:1;fill:rgba(141.3556049016824,113.6443950983176,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='393.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>D</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='408.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>670,133</text>
-	<circle r='24.865944665294244' cx='408.5' cy='148.0' style='stroke:rgba(126.36052965500106,128.63947034499893,0,0.3);stroke-width:1;fill:rgba(126.36052965500106,128.63947034499893,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='447.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>R</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='462.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>365,921</text>
-	<circle r='18.117435401433944' cx='462.5' cy='148.0' style='stroke:rgba(68.99820091218854,186.00179908781146,0,0.3);stroke-width:1;fill:rgba(68.99820091218854,186.00179908781146,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='501.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>T</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='516.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>346,222</text>
-	<circle r='17.680441186909917' cx='516.5' cy='148.0' style='stroke:rgba(65.2837500887343,189.71624991126572,0,0.3);stroke-width:1;fill:rgba(65.2837500887343,189.71624991126572,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='555.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>S</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='570.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>256,711</text>
-	<circle r='15.694767338681054' cx='570.5' cy='148.0' style='stroke:rgba(48.40552237878895,206.59447762121104,0,0.3);stroke-width:1;fill:rgba(48.40552237878895,206.59447762121104,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='609.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>N</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='624.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>340,652</text>
-	<circle r='17.5568786824732' cx='624.5' cy='148.0' style='stroke:rgba(64.23346880102221,190.7665311989778,0,0.3);stroke-width:1;fill:rgba(64.23346880102221,190.7665311989778,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='middle' x='138.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>269,534</text>
+	<circle r='15.935451573265137' cx='138.5' cy='148.0' style='stroke:rgba(50.45133837275365,204.54866162724636,0,0.3);stroke-width:1;fill:rgba(50.45133837275365,204.54866162724636,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='177.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>S</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='192.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>312,738</text>
+	<circle r='16.88685380738531' cx='192.5' cy='148.0' style='stroke:rgba(58.538257362775134,196.46174263722486,0,0.3);stroke-width:1;fill:rgba(58.538257362775134,196.46174263722486,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='231.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>D</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='246.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>698,488</text>
+	<circle r='25.38151661202972' cx='246.5' cy='148.0' style='stroke:rgba(130.74289120225262,124.25710879774738,0,0.3);stroke-width:1;fill:rgba(130.74289120225262,124.25710879774738,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='285.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>F</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='300.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>270,617</text>
+	<circle r='15.959300490484658' cx='300.5' cy='148.0' style='stroke:rgba(50.654054169119576,204.34594583088042,0,0.3);stroke-width:1;fill:rgba(50.654054169119576,204.34594583088042,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='339.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>G</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='354.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>437,484</text>
+	<circle r='19.6339055409645' cx='354.5' cy='148.0' style='stroke:rgba(81.88819709819822,173.11180290180178,0,0.3);stroke-width:1;fill:rgba(81.88819709819822,173.11180290180178,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='393.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>H</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='408.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>534,339</text>
+	<circle r='21.766765076787788' cx='408.5' cy='148.0' style='stroke:rgba(100.0175031526962,154.98249684730382,0,0.3);stroke-width:1;fill:rgba(100.0175031526962,154.98249684730382,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='447.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>J</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='462.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>475,295</text>
+	<circle r='20.466547654526156' cx='462.5' cy='148.0' style='stroke:rgba(88.96565506347233,166.03434493652767,0,0.3);stroke-width:1;fill:rgba(88.96565506347233,166.03434493652767,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='501.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>K</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='516.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>298,548</text>
+	<circle r='16.574373534675253' cx='516.5' cy='148.0' style='stroke:rgba(55.882175044739654,199.11782495526035,0,0.3);stroke-width:1;fill:rgba(55.882175044739654,199.11782495526035,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='555.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>L</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='570.5' y='173.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>534,055</text>
+	<circle r='21.76051106710141' cx='570.5' cy='148.0' style='stroke:rgba(99.964344070362,155.03565592963798,0,0.3);stroke-width:1;fill:rgba(99.964344070362,155.03565592963798,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='609.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>;</text>
 	<text alignment-baseline='hanging' text-anchor='start' x='663.5' y='138.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>&#x27;</text>
-	<text alignment-baseline='hanging' text-anchor='start' x='150.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>P</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='165.5' y='227.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>313,873</text>
-	<circle r='16.96282476751615' cx='165.5' cy='202.0' style='stroke:rgba(59.18401052388727,195.81598947611275,0,0.3);stroke-width:1;fill:rgba(59.18401052388727,195.81598947611275,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='204.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>Q</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='219.5' y='227.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>404,532</text>
-	<circle r='18.97396535813161' cx='219.5' cy='202.0' style='stroke:rgba(76.2787055441187,178.72129445588132,0,0.3);stroke-width:1;fill:rgba(76.2787055441187,178.72129445588132,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='258.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>J</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='273.5' y='227.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>462,403</text>
-	<circle r='20.257750940583517' cx='273.5' cy='202.0' style='stroke:rgba(87.19088299495989,167.8091170050401,0,0.3);stroke-width:1;fill:rgba(87.19088299495989,167.8091170050401,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='312.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>H</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='327.5' y='227.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>476,489</text>
-	<circle r='20.570228757010007' cx='327.5' cy='202.0' style='stroke:rgba(89.84694443458507,165.15305556541495,0,0.3);stroke-width:1;fill:rgba(89.84694443458507,165.15305556541495,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='366.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>X</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='381.5' y='227.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>397,255</text>
-	<circle r='18.81253549371761' cx='381.5' cy='202.0' style='stroke:rgba(74.90655169659969,180.0934483034003,0,0.3);stroke-width:1;fill:rgba(74.90655169659969,180.0934483034003,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='420.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>B</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='435.5' y='227.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>365,097</text>
-	<circle r='18.099156136863776' cx='435.5' cy='202.0' style='stroke:rgba(68.84282716334208,186.15717283665794,0,0.3);stroke-width:1;fill:rgba(68.84282716334208,186.15717283665794,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='150.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>Z</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='165.5' y='227.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>287,716</text>
+	<circle r='16.33584032015832' cx='165.5' cy='202.0' style='stroke:rgba(53.8546427213457,201.1453572786543,0,0.3);stroke-width:1;fill:rgba(53.8546427213457,201.1453572786543,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='204.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>X</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='219.5' y='227.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>383,400</text>
+	<circle r='18.44291307660575' cx='219.5' cy='202.0' style='stroke:rgba(71.76476115114885,183.23523884885117,0,0.3);stroke-width:1;fill:rgba(71.76476115114885,183.23523884885117,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='258.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>C</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='273.5' y='227.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>155,477</text>
+	<circle r='13.423784028198831' cx='273.5' cy='202.0' style='stroke:rgba(29.102164239690058,225.89783576030993,0,0.3);stroke-width:1;fill:rgba(29.102164239690058,225.89783576030993,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='312.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>V</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='327.5' y='227.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>72,953</text>
+	<circle r='11.606509748767916' cx='327.5' cy='202.0' style='stroke:rgba(13.655332864527285,241.34466713547272,0,0.3);stroke-width:1;fill:rgba(13.655332864527285,241.34466713547272,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='366.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>B</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='381.5' y='227.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>391,544</text>
+	<circle r='18.622253410710798' cx='381.5' cy='202.0' style='stroke:rgba(73.28915399104179,181.7108460089582,0,0.3);stroke-width:1;fill:rgba(73.28915399104179,181.7108460089582,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='420.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>N</text>
+	<text alignment-baseline='hanging' text-anchor='middle' x='435.5' y='227.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>434,146</text>
+	<circle r='19.560398905988727' cx='435.5' cy='202.0' style='stroke:rgba(81.26339070090418,173.73660929909582,0,0.3);stroke-width:1;fill:rgba(81.26339070090418,173.73660929909582,0,0.3)' />
 	<text alignment-baseline='hanging' text-anchor='start' x='474.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>M</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='489.5' y='227.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>247,269</text>
-	<circle r='15.48531003762334' cx='489.5' cy='202.0' style='stroke:rgba(46.625135319798396,208.3748646802016,0,0.3);stroke-width:1;fill:rgba(46.625135319798396,208.3748646802016,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='528.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>W</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='543.5' y='227.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>462,429</text>
-	<circle r='20.25832771349471' cx='543.5' cy='202.0' style='stroke:rgba(87.19578556470505,167.80421443529497,0,0.3);stroke-width:1;fill:rgba(87.19578556470505,167.80421443529497,0,0.3)' />
-	<text alignment-baseline='hanging' text-anchor='start' x='582.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>V</text>
-	<text alignment-baseline='hanging' text-anchor='middle' x='597.5' y='227.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>16,843</text>
-	<circle r='10.373637928586641' cx='597.5' cy='202.0' style='stroke:rgba(3.175922392986441,251.82407760701355,0,0.3);stroke-width:1;fill:rgba(3.175922392986441,251.82407760701355,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='middle' x='489.5' y='227.0' fill='rgba(0,0,0,0.4)' font-size='4' font-family='monospace'>429,820</text>
+	<circle r='19.465135364075856' cx='489.5' cy='202.0' style='stroke:rgba(80.45365059464474,174.54634940535527,0,0.3);stroke-width:1;fill:rgba(80.45365059464474,174.54634940535527,0,0.3)' />
+	<text alignment-baseline='hanging' text-anchor='start' x='528.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>,</text>
+	<text alignment-baseline='hanging' text-anchor='start' x='582.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>.</text>
 	<text alignment-baseline='hanging' text-anchor='start' x='636.5' y='192.0' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>/</text>
 	<text alignment-baseline='hanging' text-anchor='start' x='29' y='30' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>~</text>
 	<text alignment-baseline='hanging' text-anchor='start' x='83' y='30' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>!</text>
@@ -2113,60 +2111,60 @@ base on
 	<text alignment-baseline='hanging' text-anchor='start' x='717.5' y='138.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ENTER</text>
 	<text alignment-baseline='hanging' text-anchor='start' x='29' y='192' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>SHIFT (L)</text>
 	<text alignment-baseline='hanging' text-anchor='start' x='690.5' y='192.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>SHIFT (R)</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='445.5' y='192.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>b</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='513' y='84' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>c</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='418.5' y='138.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>d</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='405' y='84' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>f</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='459' y='84' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>g</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='337.5' y='192.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>h</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='283.5' y='192.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>j</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='297' y='84' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>k</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='567' y='84' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>l</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='391.5' y='192.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>b</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='283.5' y='192.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>c</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='256.5' y='138.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>d</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='310.5' y='138.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>f</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='364.5' y='138.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>g</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='418.5' y='138.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>h</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='472.5' y='138.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>j</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='526.5' y='138.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>k</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='580.5' y='138.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>l</text>
 	<text alignment-baseline='hanging' text-anchor='end' x='499.5' y='192.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>m</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='634.5' y='138.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>n</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='175.5' y='192.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>p</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='229.5' y='192.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>q</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='472.5' y='138.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>r</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='580.5' y='138.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>s</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='526.5' y='138.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>t</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='553.5' y='192.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>w</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='391.5' y='192.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>x</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='351' y='84' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>y</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='621' y='84' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>z</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='148.5' y='138.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>ch</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='310.5' y='138.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>sh</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='364.5' y='138.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>zh</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='445.5' y='192.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>n</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='621' y='84' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>p</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='135' y='84' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>q</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='297' y='84' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>r</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='202.5' y='138.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>s</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='351' y='84' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>t</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='189' y='84' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>w</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='229.5' y='192.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>x</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='405' y='84' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>y</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='175.5' y='192.0' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>z</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='459' y='84' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>ch</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='513' y='84' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>sh</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='243' y='84' fill='rgb(0,0,255)' font-size='10' font-family='monospace'>zh</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='526.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ong</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='526.5' y='162.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>iong</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='405' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>uai</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='310.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>eng</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='364.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ang</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='283.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>iao</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='580.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ou</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='175.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ia</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='175.5' y='216.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ua</text>
 	<text alignment-baseline='hanging' text-anchor='end' x='148.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>a</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='175.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ai</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='472.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>an</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='580.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ang</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='229.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ao</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='256.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>e</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='297' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ei</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='553.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>en</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='526.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>eng</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='310.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>i</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='391.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ia</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='405' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ian</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='459' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>iang</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='445.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>iao</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='418.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ie</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='337.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>iong</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='351' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>in</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='135' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ing</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='283.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>iu</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='202.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>o</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='337.5' y='216.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ong</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='621' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ou</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='364.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>u</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='391.5' y='216.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ua</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='351' y='108' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>uai</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='567' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>uan</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='459' y='108' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>uang</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='634.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ue</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='634.5' y='162.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ui</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='499.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>un</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='202.5' y='162.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>uo</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='607.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>v</text>
-	<text alignment-baseline='hanging' text-anchor='end' x='634.5' y='174.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ve</text>
-	<text alignment-baseline='middle' text-anchor='middle' x='385' y='255' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>紫光双拼 (#11,315,194 strokes)</text></svg>
+	<text alignment-baseline='hanging' text-anchor='end' x='567' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>o</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='567' y='108' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>uo</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='243' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>e</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='513' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>i</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='459' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>u</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='256.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>iang</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='256.5' y='162.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>uang</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='297' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>an</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='351' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>en</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='202.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ao</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='445.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>in</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='445.5' y='216.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ing</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='621' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>un</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='135' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>iu</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='472.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>uan</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='418.5' y='150.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ian</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='229.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ie</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='391.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ui</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='499.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ai</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='189' y='96' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ei</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='337.5' y='204.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ue</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='337.5' y='216.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>ve</text>
+	<text alignment-baseline='hanging' text-anchor='end' x='337.5' y='228.0' fill='rgb(155,155,155)' font-size='10' font-family='monospace'>v</text>
+	<text alignment-baseline='middle' text-anchor='middle' x='385' y='255' fill='rgb(0,0,0)' font-size='10' font-family='monospace'>不自然码 (#11,315,194 strokes)</text></svg>

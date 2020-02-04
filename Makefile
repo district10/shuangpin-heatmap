@@ -18,6 +18,9 @@ update_heatmaps:
 	python3 shuangpin_heatmap.py \
 		--heatmap-mode 1 \
 		--output-directory heatmaps < $(INPUT_TEXT)
+check_heatmaps:
+	python3 svg_player.py heatmaps
+
 test:
 	python3 shuangpin_heatmap.py \
 		--heatmap-mode 1 \

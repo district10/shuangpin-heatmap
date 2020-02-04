@@ -58,6 +58,13 @@ if __name__ == '__main__':
     # path = '/home/tzx/git/feeder/dump/zhihu_dump_1580381555.txt'
     with open(path) as f:
         lines = f.readlines()
+    with open(f'{path}_strip.txt', 'w') as f:
+        for line in lines:
+            line = re.sub("[\u0000-\u007f]", "", line)
+            # line = re.sub("阅读更多", "\n", line)
+            f.write(line)
+            f.write('\n')
+    exit(0)
 
     char_counter = defaultdict(int)
     word_counter = defaultdict(int)
