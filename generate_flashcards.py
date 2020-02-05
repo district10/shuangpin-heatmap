@@ -59,6 +59,17 @@ if __name__ == '__main__':
             f.write(f'\n{prefix}```')
             f.write(f'\n{prefix}{"".join(shuangpin)}')
             f.write(f'\n{prefix}{line}')
+
+            # ziranma = [
+            #     pinyin2shuangpin(
+            #         py,
+            #         shuangpin_schema_name='ziranma',
+            #         cache=cache,
+            #         translated=trans,
+            #     ) for py in pinyin
+            # ]
+            # f.write(f'\n\n\n\n{prefix}{"".join(ziranma)}')
+
             f.write(f'\n{prefix}```\n')
 
     with open(f'{output_directory}/index.md', 'w') as f:
