@@ -54,6 +54,28 @@ def pinyin2shengyun(pinyin):
 
 
 if __name__ == '__main__':
+    with open(f'{PWD}/data/sample4.txt') as f:
+        pinyins = set()
+        pinyin2hanzi = {}
+        lines = f.readlines()
+        for line in lines:
+            line = line.strip()
+            try:
+                hanzi = line[0]
+                len0 = len(pinyins)
+                pys = [re.sub('[0-9]', '', py).lower() for py in line.split(' ')[1].split('/')]
+                pinyins.update(pys)
+                if len(pinyins) > len0:
+                    for py in pys:
+                        if py not in pinyin2hanzi:
+                            pinyin2hanzi[py] = hanzi
+            except Exception as e:
+                pass
+        for py, hz in pinyin2hanzi.items():
+            print(f'{hz} {py}')
+    exit(0)
+
+
     path = '/home/tzx/git/feeder/dump/zhihu_2020-02-02_13-39-01.149.txt'
     # path = '/home/tzx/git/feeder/dump/zhihu_dump_1580381555.txt'
     with open(path) as f:
