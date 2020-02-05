@@ -642,6 +642,7 @@
                     "iang": "d",
                     "uang": "d",
                     "an": "r",
+                    "er": "r",
                     "en": "t",
                     "ao": "s",
                     "in": "n",
@@ -660,18 +661,18 @@
                     "v": "v"
                 },
                 "other": {
-                    "a": "aa",
-                    "ai": "ai",
+                    "a": "oa",
+                    "ai": "om",
                     "an": "an",
-                    "ang": "ah",
-                    "ao": "ao",
-                    "e": "ee",
-                    "ei": "ei",
-                    "en": "en",
-                    "eng": "eg",
-                    "er": "er",
+                    "ang": "og",
+                    "ao": "os",
+                    "e": "oe",
+                    "ei": "ow",
+                    "en": "ot",
+                    "eng": "?",
+                    "er": "or",
                     "o": "oo",
-                    "ou": "ou"
+                    "ou": "ol"
                 }
             }
         }
