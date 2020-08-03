@@ -25,7 +25,7 @@ make prepare # 等价于 python3 -m pip install -r requirements.txt
 
 | 双拼方案 | QWERTY 键盘布局 | DVORAK 键盘布局 |
 | :-- | :--: | :--: |
-| 拼音加加 | ![](heatmaps/pinyinjiajia_qwerty.svg) | ![](svgs/pinyinjiajia_dvorak.svg) |
+| 拼音加加 | ![](heatmaps/pinyinjiajia_qwerty.svg) | ![](heatmaps/pinyinjiajia_dvorak.svg) |
 | 搜狗双拼 | ![](heatmaps/sougou_qwerty.svg) | ![](heatmaps/sougou_dvorak.svg) |
 | 微软双拼 | ![](heatmaps/weiruan_qwerty.svg) | ![](heatmaps/weiruan_dvorak.svg) |
 | 小鹤双拼 | ![](heatmaps/xiaohe_qwerty.svg) | ![](heatmaps/xiaohe_dvorak.svg) |
