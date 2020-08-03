@@ -32,7 +32,7 @@ if __name__ == '__main__':
         shuangpin = [
             pinyin2shuangpin(
                 py,
-                shuangpin_schema_name='buziranma',
+                shuangpin_schema_name='ziranma',
                 cache=cache,
                 translated=trans,
             ) for py in pinyin

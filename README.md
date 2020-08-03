@@ -20,7 +20,6 @@ make prepare # 等价于 python3 -m pip install -r requirements.txt
 | 智能ABC | ![](svgs/qwerty/zhinengabc.svg) | ![](svgs/dvorak/zhinengabc.svg) |
 | 紫光双拼 | ![](svgs/qwerty/ziguang.svg) | ![](svgs/dvorak/ziguang.svg) |
 | 自然码 | ![](svgs/qwerty/ziranma.svg) | ![](svgs/dvorak/ziranma.svg) |
-| 不自然码 | ![](svgs/qwerty/buziranma.svg) | ![](svgs/dvorak/buziranma.svg) |
 
 ## 热力图
 
@@ -33,7 +32,6 @@ make prepare # 等价于 python3 -m pip install -r requirements.txt
 | 智能ABC | ![](heatmaps/zhinengabc_qwerty.svg) | ![](heatmaps/zhinengabc_dvorak.svg) |
 | 紫光双拼 | ![](heatmaps/ziguang_qwerty.svg) | ![](heatmaps/ziguang_dvorak.svg) |
 | 自然码 | ![](heatmaps/ziranma_qwerty.svg) | ![](heatmaps/ziranma_dvorak.svg) |
-| 不自然码 | ![](heatmaps/buziranma_qwerty.svg) | ![](heatmaps/buziranma_dvorak.svg) |
 
 查看 svg：
 
