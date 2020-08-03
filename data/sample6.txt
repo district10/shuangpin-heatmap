@@ -1,0 +1,841 @@
+贝叶斯定理 Bayes' theorem
+贝塞尔曲线 Bezier curve
+Blub 困境 Blub paradox
+驼峰式大小写 CamelCase
+通用网关接口 Common Gateway Interface, CGI
+Common Lisp 对象系统 Common Lisp Object System, CLOS
+DLL 地狱 DLL hell
+美国国防部高级研究计划局 Defense Advanced Research Projects Agency, DARPA
+格林斯潘第十定律 Greenspun's tenth rule
+超文本标记语言 HyperText Markup Language, HTML
+超文本传输协议 HyperText Transfer Protocol, HTTP
+聪明人的语言 Language For Smart People, LFSP
+摩尔定律 Moore's law
+多重虚拟存储 Multiple Virtual Storage, MVS
+奥卡姆剃刀原则 Occam's razor
+帕金森法则 Parkinson's law
+精简指令系统计算机 Reduced Instruction Set Computer, RISC
+冗余独立磁盘阵列 Redundant Array of Independent Disks, RAID
+S-表达式 S-expression
+尖叫式蛇底大写 SCREAMING_SNAKE_CASE
+安全套接字层 Secure Sockets Layer, SSL
+真理的单点性 Single Point of Truth, SPOT
+系统网络体系 System Network Architecture, SNA
+选择谬论 The Paradox of Choice
+图灵完备 Turing complete
+图灵机 Turing machine
+统一资源定位符 Uniform Resource Locator, URL
+所见即所得 What You See Is What You Get, WYSIWYG
+所见即所想 What You See Is What You Want, WYSIWYW
+Y组合子 Y combinator
+Z-表达式 Z-expression
+一块指针 a block of pointers
+缩略语 abbreviation
+抽象的 abstract
+抽象语法树 abstract syntax tree, AST
+抽象 abstraction
+抽象屏障 abstraction barrier
+函数调用抽象 abstraction of function calls
+访问 access
+访问函数 access function
+累加器 accumulator
+激活 activate
+专设 ad hoc
+适配器 adapter
+地址 address
+代数数据类型 algebraic data type
+算法 algorithm
+别名 alias
+分配 allocate
+备选 alternative
+平摊分析 amortized analysis
+指代 anaphoric
+注解 annotation
+匿名函数 anonymous function
+前提 antecedent
+追加 append
+应用 application
+应用框架 application framework
+应用程序编程接口 application program interface, API
+应用程序服务提供商 application service provider, ASP
+应用序 applicative
+参数 argument
+算术 arithmetic
+数组 array
+人工智能 artificial intelligence, AI
+组合 assemble
+汇编 assembly
+赋值 assignment
+赋值操作符 assignment operator
+关联的 associated
+关联列表 association list, alist
+原子 atom
+原子的 atomic
+原子型值 atomic value
+属性 attribute
+扩充 augmented
+自动内存管理 automatic memory management
+自动推导 automatically infer
+自动机理论 autometa theory
+辅助 auxiliary
+反引用 backquote
+回溯 backtrace
+向下兼容 backward compatible
+带宽 bandwidth
+基本情形 base case
+基类 base class
+最佳可行函式 best viable function
+大数 bignum
+二元操作符 binary operator
+二分查找 binary search
+二叉搜索树 binary search tree
+二叉树 binary tree
+绑定 binding
+绑定向量 binding vector
+位操作 bit manipulation
+黑箱抽象 black box abstraction
+代码块名字 block name
+块结构 block structure
+公式化 boilerplate
+簿记 bookkeeping
+布尔 boolean
+边框 border
+自底向上的设计 bottom-up design
+自底向上编程 bottom-up programming
+边界 bound
+边界检查 bounds checking
+箱子表示法 box notation
+花括弧 brace
+方括弧 bracket
+分支 branch
+广度优先 breadth-first
+广度优先搜索 breadth-first search, BFS
+断点 breakpoint
+简洁 brevity
+缓冲区 buffer
+缓冲区溢出攻击 buffer overflow attack
+臭虫 bug
+创建 building
+内置 built-in
+字节 byte
+字节码 bytecode
+缓存 cache
+调用 call
+回调 callback
+候选函数 candidate function
+捕捉 capture
+分支 case
+字符 character
+校验和 checksum
+子类 child class
+滞塞点 choke point
+块 chunk
+循环定义 circular definition
+清晰 clarity
+类 class
+类声明 class declaration
+类库 class library
+客户 client
+剪贴板 clipboard
+克隆 clone
+封闭世界假定 closed world assumption
+闭包 closure
+杂乱 clutter
+代码 code
+代码膨胀 code bloat
+收集器 collection
+行 column
+行主序 column-major order
+逗号 comma
+命令行 command-line
+命令行界面 command-line interface, CLI
+兼容 compatible
+编译 compilation
+编译参数 compilation parameter
+编译 compile
+内联编译 compile inline
+编译期 compile time
+编译后的形式 compiled form
+编译器 compiler
+复杂 complex
+复杂度 complexity
+补集 compliment
+组件 component
+可组合性 composability
+组合 composition
+复合数据 compound value
+压缩 compression
+计算 computation
+计算机 computer
+串接 concatenation
+概念 concept
+具体 concrete
+并发 concurrency
+并发 concurrent
+条件式 conditional
+条件变量 conditional variable
+配置 configuration
+连接 connection
+构造 cons
+构元 cons cell
+结果 consequent
+一致性 consistent
+常量 constant
+约束 constraint
+约束式编程 constraint programming
+容器 container
+基于内容的过滤 content-based filtering
+上下文 context
+延续性 continuation
+持续集成 continuous integration, CI
+控件 control
+协作式多任务 cooperative multitasking
+拷贝 copy
+推论 corollary
+协程 coroutine
+程序崩溃 corruption
+崩溃 crash
+创建 create
+固化 crystallize
+括弧状的 curly
+柯里的 curried
+柯里化 currying
+光标 cursor
+卷曲的 curvy
+周期 cycle
+迷途指针 dangling pointer
+数据 data
+数据结构 data structure
+数据类型 data type
+数据驱动 data-driven
+数据库 database
+数据库模式 database schema
+数据报文 datagram
+死锁 dead lock
+调试 debug
+调试器 debugger
+调试 debugging
+声明 declaration
+声明形式 declaration forms
+声明式 declarative
+声明式知识 declarative knowledge
+声明式编程 declarative programming
+可声明性 declarativeness
+声明 declaring
+解构 deconstruction
+推导 deduction
+缺省 default
+推迟 defer
+缺陷 deficiency
+定义 define
+定义 definition
+委托 delegate
+释放 dellocate
+散集 demarshal
+废弃 deprecated
+深度优先 depth-first
+深度优先搜索 depth-first search, BFS
+派生 derived
+派生类 derived class
+设计模式 design pattern
+指示符 designator
+破坏性的 destructive
+破坏性函数 destructive function
+解构 destructuring
+硬件驱动程序 device driver
+维度 dimensions
+指令 directive
+指示符 directive
+目录 directory
+分派 dispatch
+分布式计算 distributed computing
+文档 document
+点状列表 dotted list
+带点尾部表示法 dotted-pair notation
+复本 duplicate
+动态绑定 dynamic binding
+动态范围 dynamic extent
+动态语言 dynamic languages
+动态作用域 dynamic scope
+动态类型 dynamic type
+效果 effect
+效率 efficiency
+高效 efficient
+嵌入式语言 embedded language
+仿真 emulate
+封装 encapsulation
+枚举 enum
+枚举类型 enumeration type
+枚举器 enumrators
+环境 environment
+相等 equal
+相等性 equality
+方程 equation
+等价性 equivalence
+错误信息 error message
+错误检查 error-checking
+转义字符 escape character
+逃脱 escaped
+求值 evaluate
+求值 evaluation
+事件 event
+事件驱动 event driven
+异常 exception
+异常处理 exception handling
+异常规范 exception specification
+退出 exit
+可扩展的 expendable
+显式 explicit
+探索式编程 exploratory programming
+导出 export
+表达式 expression
+表达能力 expressive power
+可扩展性 extensibility
+范围 extent
+外部表示法 external representation
+极限编程 extreme programming
+阶乘 factorial
+可行的 feasible
+特色 feature
+字段 field
+文件 file
+文件句柄 file handle
+填充指针 fill pointer
+细粒度 fineo-grained
+固件 firmware
+第一类的 first-class
+第一级函数 first-class function
+第一类的对象 first-class object
+不动点 fixed-point
+定长数 fixnum
+标记 flag
+闪存 flash
+灵活性 flexibility
+浮点数 floating-point
+浮点数表示法 floating-point notation
+刷新 flush
+折叠 fold
+字体 font
+迫使 force
+形式 form
+表单 form
+形参 formal parameter
+形式关系 formal relation
+转发 forward
+分形 fractal
+派系 fractions
+框架 framework
+自由软件 freeware
+函数 function
+函数字面常量 function literal
+函数对象 function object
+函数型参数 functional arguments
+函数式编程 functional programming
+功能性 functionality
+游戏 game
+垃圾 garbage
+垃圾回收 garbage collection
+垃圾回收器 garbage collector
+泛化 generalized
+广义变量 generalized variable
+生成 generate
+生成器 generator
+通用的 generic
+通用算法 generic algorithm
+通用函数 generic function
+通用编程 generic programming
+生产式编程 genrative programming
+全局的 global
+全局声明 global declaration
+胶水程序 glue program
+跳转 goto
+图形用户界面 graphical user interface, GUI
+最大公因数 greatest common divisor
+破解 hack
+黑客 hacker
+处理器 handle
+硬盘 hard disk
+硬件 hardware
+哈希表 hash tables
+头部 header
+头文件 header file
+辅助函数 helper
+启发式 heuristic
+高阶 high-order
+高阶函数 higher-order function
+高阶过程 higher-order procedure
+超链接 hyperlink
+一致 identical
+标识符 identifier
+同一性 identity
+类型不正确 ill type
+错觉 illusion
+命令式 imperative
+命令式编程 imperative programming
+实现 implement
+实现 implementation
+隐式 implicit
+导入 import
+增量测试 incremental testing
+缩排 indent
+缩排 indentation
+缩排 indented
+缩排 indention
+推导 infer
+无限循环 infinite loop
+无限精度 infinite precision
+无限递归 infinite recursion
+中序 infix
+信息 information
+信息技术 information technology, IT
+继承 inheritance
+初始化 initialization
+初始化 initialize
+内联 inline
+内联展开 inline expansion
+内嵌类 inner class
+内层循环 inner loop
+输入 input
+实例 instances
+实例化 instantiate
+教学性的 instructive
+记录仪 instrument
+整数 integer
+集成 integrate
+进程间通信 inter-process communication, IPC
+交互式语言 interactive language
+交互式编程环境 interactive programming environment
+交互式测试 interactive testing
+交互 interacts
+接口 interface
+过渡形式 intermediate form
+内部 internal
+互联网 internet
+插值 interpolation
+解释 interpret
+解释器 interpreter
+中止 interrupt
+交集 intersection
+约束条件 invariants
+调用 invoke
+迭代 iterate
+迭代的 iteration
+迭代的 iterative
+迭代器 iterator
+锯齿状的 jagged
+作业控制语言 job control language, JCL
+明智的 judicious
+核心 kernel
+核心语言 kernel language
+关键字参数 keyword argument
+关键字 keywords
+蹩脚 kludge
+lambda 演算 lambda calculus
+雏形创业公司 larval startup
+激光 laser
+版型 layout
+惰性 lazy
+惰性求值 lazy evaluation
+历史遗留软件 legacy software
+杠杆 leverage
+词法的 lexical
+词法分析 lexical analysis
+词法闭包 lexical closure
+词法作用域 lexical scope
+生命期 lifetime
+线性迭代 linear iteration
+线性递归 linear recursion
+链接 link
+连接器 linker
+列表 list
+列表操作 list operation
+字面 literal
+字面常量 literal constant
+字面量 literal representation
+装载 load
+装载器 loader
+局部的 local
+局部声明 local declarations
+局部函数 local function
+局部变量 local variable
+局部性 locality
+循环 loop
+左值 lvalue
+机器指令 machine instruction
+机器语言 machine language
+机器语言代码 machine language code
+机器学习 machine learning
+邮件列表 mailing list
+大型机 mainframes
+维护 maintain
+显式类型 manifest typing
+操纵器 manipulator
+映射 mapping
+映射函数 mapping functions
+列集 marshal
+对数学家的妒忌 math envy
+成员 member
+记忆化 memorizing
+内存 memory
+内存分配 memory allocation
+内存泄漏 memory leaks
+菜单 menu
+消息 message
+消息传递 message-passing
+元编程 meta-programming
+元循环 metacircular
+方法 method
+方法组合 method combination
+中间件 middleware
+（数据库）迁移 migration
+最小网络 minimal network
+镜射 mirror
+类型不匹配 mismatch type
+模型 model
+调制解调器 modem
+修饰符 modifier
+模块性 modularity
+模块 module
+单子 monad
+猴子补丁 monkey patch
+单型语言 monomorphic type language
+鼠标 mouse
+多任务 multi-task
+多值 multiple values
+可变的 mutable
+互斥锁 mutex
+命名空间 namespace
+本地的 native
+本地码 native code
+自然语言 natural language
+自然语言处理 natural language processing
+嵌套 nested
+嵌套类 nested class
+网络 network
+换行 newline
+非确定性选择 non-deterministic choice
+非严格 non-strict
+非严格求值 non-strict evaluation
+非破坏性的版本 nondestructive version
+数字密集运算 number crunching
+对象 object
+目标代码 object code
+面向对象 object-oriented
+面向对象编程 object-oriented programming
+运行中 on the fly
+在线 online
+开放源码 open source
+操作对象 operand
+操作系统 operating system, OS
+操作 operation
+操作符 operator
+优化 optimization
+尾调用优化 optimization of tail calls
+选项 option
+可选的 optional
+选择性参数 optional argument
+常规的 ordinary
+正交性 orthogonality
+溢出 overflow
+额外开销 overhead
+重载 overload
+覆写 override
+点对 pair
+回文 palindrome
+范式 paradigm
+并行 parallel
+并行计算机 parallel computer
+参数 param
+参数 parameter
+括号匹配 paren-matching
+父类 parent class
+括号 parentheses
+解析 parse
+解析树 parse tree
+解析器 parser
+部分应用 partial application
+分步代入的 partial applied
+部分函数应用 partial function application
+部分有序 particular ordering
+按址传递 pass by adress
+按引用传递 pass by reference
+按值传递 pass by value
+路径 path
+模式 pattern
+模式匹配 pattern match
+执行 perform
+性能 performance
+持久性 persistence
+相面 phrenology
+物理的 physical
+管道 pipe
+像素 pixel
+占位符 placeholder
+计画 planning
+平台 platform
+指针 pointer
+指针运算 pointer arithmetic
+轮询 poll
+多态 polymorphic
+多态 polymorphism
+多项式的 polynomial
+端口 port
+可移植性 portable
+门户 portal
+位置参数 positional parameters
+后序 postfix
+优先级 precedence
+优先级列表 precedence list
+前述的 preceding
+判断式 predicate
+抢占式多任务 preemptive multitasking
+过早设计 premature design
+预处理器 preprocessor
+规定 prescribe
+素数 prime
+原语 primitive
+主递归 primitive recursive
+原生类型 primitive type
+主要类型 principal type
+打印 print
+打印表示法 printed representation
+打印机 printer
+优先级 priority
+过程 procedure
+过程化的 procedurual
+过程式知识 procedurual knowledge
+进程 process
+进程优先级 process priority
+生产力 productivity
+评测 profile
+评测器 profiler
+程序员 programmer
+编程 programming
+编程语言 programming language
+项目 project
+提示符 prompt
+正规列表 proper list
+属性 property
+属性列表 property list
+协议 protocol
+原型 prototype
+伪码 pseudo code
+伪指令 pseudo instruction
+纯函数式语言 purely functional language
+下推栈 pushdown stack
+修饰的 qualified
+修饰符 qualifier
+质量 quality
+质量保证 quality assurance, QA
+查询 query
+查询语言 query language
+队列 queue
+引用 quote
+引用形式 quoted form
+条件竞争 race condition
+弧度 radian
+引起 raise
+随机数 random number
+范围 range
+快速原型开发 rapid prototyping
+关系数据库 rational database
+未经处理的 raw
+读取 read
+读取-求值-打印循环 read-evaluate-print loop, REPL
+读取宏 read-macro
+记录 record
+递归 recursion
+递归的 recursive
+递归情形 recursive case
+重构 refactor
+参考 refer
+引用 reference
+引用透明 referential transparency
+精化 refine
+反射 reflection
+寄存器 register
+注册表蠕变 registry creep
+正则表达式 regular expression
+远程过程调用 remote procedure call, RPC
+表现 represent
+请求 request
+解析度 resolution
+解析 resolve
+剩余参数 rest parameter
+返回 return
+返回值 return value
+代码重用 reuse of software
+右结合 right associative
+健壮 robust
+健壮性 robustness
+例程 routine
+路由 routing
+列主序 row-major order
+游程编码 run-length encoding
+运行期类型 run-time typing
+运行期 runtime
+右值 rvalue
+储存 save
+脚手架 scaffold
+标量 scalar type
+扫描 scan
+调度 schedule
+调度程序 scheduler
+作用域 scope
+屏幕 screen
+脚本语言 scripting language
+查找 search
+指令片段 segment of instructions
+语义 semantics
+信号量 semaphore
+分号 semicolon
+序列 sequence
+循序的 sequential
+串行 serial
+序列化 serialization
+串行 series
+服务器 server
+隐蔽了 shadowing
+犀利的 sharp
+升引号 sharp-quote
+最短路径 shortest path
+副作用 side effect
+签名 signature
+简单向量 simple vector
+模拟 simulate
+单段的 single-segment
+草图 sketch
+斜线 slash
+智能指针 smart pointer
+蛇底式小写 snake_case
+屏幕截图 snapshot
+套接字 socket
+软件 software
+方案 solution
+源代码 source code
+内存泄漏 space leak
+面条式代码 spaghetti
+意面式栈 spaghetti stack
+垃圾邮件 spam
+规格 spec
+特殊形式 special form
+特殊变量 special variable
+特化 specialization
+特化 specialize
+特化数组 specialized array
+规格说明 specification
+切分窗口 splitter
+精灵图 sprite
+平方 square
+平方根 square root
+碰撞 squash
+栈帧 stack frame
+标准函式库 standard library
+状态机 state machine
+陈述 statement
+静态类型 static type
+静态类型系统 static type system
+状态 status
+保存 store
+严格 strict
+严格求值 strict evaluation
+字串 string
+字串模版 string template
+强类型 strong type
+结构递归 structural recursion
+结构型值 structured values
+子程序 subroutine
+子集 subset
+代换 substitution
+代换模型 substitution model
+子类型 subtype
+基类 superclass
+多余的 superfluous
+超集 supertype
+支持 support
+挂起 suspend
+交换变量的值 swapping values
+符号 symbol
+符号计算 symbolic computation
+语法 syntax
+系统管理员 system administrator
+系统管理员综合症 system administrator disease
+表格 table
+标签 tag
+尾递归 tail-recursion
+尾递归的 tail-recursive
+目标 target
+需节制使用的操作符 taxable operators
+分类法 taxonomy
+模版 template
+临时对象 temporary object
+测试 testing
+文本 text
+文本文件 text file
+线程 thread
+线程安全 thread safe
+三值逻辑 three-valued logic
+抛出 throw
+一次性程序 throwaway program
+时间戳 timestamp
+词法记号 token
+自顶向下的设计 top-down design
+顶层 top-level
+追踪 trace
+行尾空白 trailing space
+事务 transaction
+转移网络 transition network
+透明的 transparent
+遍历 traverse
+树形递归 tree recursion
+触发器 trigger
+元组 tuple
+类型合法 typable
+类型 type
+类构造器 type constructor
+类型声明 type declaration
+类型层级 type hierarchy
+类型推导 type inference
+类型名 type name
+类型安全 type safe
+类型签名 type signature
+类型别名 type synonym
+类型变量 type variable
+类型指派 typing
+一元的 unary
+下溢 underflow
+合一 unification
+并集 union
+全局量化 universally quantify
+未修饰的 unqualfied
+运行时间 uptime
+用户 user
+用户界面 user interface, UI
+实用函数 utilities
+验证 validate
+验证器 validator
+值构造器 value constructor
+朦胧件 vaporware
+变量 variable
+变量捕捉 variable capture
+可变输入 variadic input
+变种 variant
+向量 vector
+风险投资商 venture capitalist, VC
+可行函数 viable function
+视频 video
+视图 view
+虚函数 virtual function
+虚拟机 virtual machine
+虚内存 virtual memory
+挥发 volatile
+元音 vowel
+警告信息 warning message
+网络服务器 web server
+权值 weight
+类型正确 well type
+通配符 wildcard
+窗口 window
+单词 word
+包装器 wrapper
+零索引的 zero-indexed
